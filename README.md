@@ -1,5 +1,26 @@
 # Open Data for Customer Analytics
 
+## Scripts
+
+### Convert Absolute Numbers Into Percentages (Within Country)
+
+```
+# Import Module/Dataset and Load It Into a DataFrame
+import pandas as pd
+df = pd.read_csv('/path', sep=';')
+
+# Get Column Names and Drop Useless Attribute
+attr = list(df.columns)
+attr.remove('region')
+
+# Iteration and Convertion Into Percentage
+for i in attr:
+  df[i]= df[i]/df[i][26]
+  
+# Export DataFrame
+df.to_csv('/path')
+```
+
 ## Datasets
 
 ### popStructure
