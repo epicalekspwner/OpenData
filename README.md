@@ -40,27 +40,9 @@ df.to_csv('/path')
 - **Access URL**: https://www.bfs.admin.ch/bfs/en/home/statistics/catalogues-databases.assetdetail.18344223.html
 
 **Attributes**
-- **Total**
-  - ```total```
-- **Age** 
-  - ```age0_19``` 
-  - ```age20_64``` 
-  - ```age65+```
-- **Sex** 
-  - ```sexMale``` 
-  - ```sexFemale``` 
-- **Citizenship**
-  - ```citizenSwiss``` 
-   - ```citizenForeign``` 
-- **Marital Status**
-  - ```maritalSingle``` 
-  - ```maritalMarried``` 
-  - ```maritalWidowed``` 
-  - ```maritalDivorced``` 
-  - ```maritalUnmarried``` 
-  - ```martialRegistredPartnership``` 
-  - ```maritalDisolvedPartnership```
-- **Typology: Area with Urban Character** 
-  - ```typoUrbanCore``` 
-  - ```typoUrbanCoreInfluence``` 
-  - ```typoNoUrbanCoreInfluence``` 
+- **Total**: ```total```
+- **Age**: ```age0_19```, ```age20_64```, ```age65+```
+- **Sex**: ```sexMale```, ```sexFemale``` 
+- **Citizenship**: ```citizenSwiss```, ```citizenForeign``` 
+- **Marital Status**: ```maritalSingle```, ```maritalMarried```, ```maritalWidowed```, ```maritalDivorced```, ```maritalUnmarried```, ```martialRegistredPartnership```, ```maritalDisolvedPartnership```
+- **Typology: Area with Urban Character**: ```typoUrbanCore```, ```typoUrbanCoreInfluence```, ```typoNoUrbanCoreInfluence``` 
