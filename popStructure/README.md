@@ -1,9 +1,9 @@
 ## popStructure Metadata & Attributes
 
 ### **Files**
-- [2020_popStructureAbsolute.csv](https://github.com/epicalekspwner/OpenData/blob/main/popStructure/2020_popStructureAbsolute.csv): absolute numbers of people per canton
-- [2020_popStructureCantonRelative.csv](https://github.com/epicalekspwner/OpenData/blob/main/popStructure/2020_popStructureCantonRelative.csv): relative numbers of people (percentages) within the canton
-- [2020_popStructureCountryRelative.csv](https://github.com/epicalekspwner/OpenData/blob/main/popStructure/2020_popStructureCountryRelative.csv): relative numbers of people (percentages) within the country
+- ```20XX_popStructureAbsolute.csv```: absolute numbers of people per canton
+- ```20XX_popStructureCantonRelative.csv```: relative numbers of people (percentages) within the canton
+- ```20XX_popStructureCountryRelative.csv```: relative numbers of people (percentages) within the country
 
 ### Metadata
 
