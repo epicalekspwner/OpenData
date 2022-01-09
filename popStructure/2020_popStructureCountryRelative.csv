@@ -1,4 +1,4 @@
-region,2020_total,2020_age0_19,2020_age20_64,2020_age65+,2020_sexMale,2020_sexFemale,2020_citizenSwiss,2020_citizenForeign,2020_maritalSingle,2020_maritalMarried,2020_maritalWidowed,2020_maritalDivorced,2020_maritalUnmarried,2020_martialRegistredPartnership,2020_maritalDisolvedPartnership,2020_typoUrbanCore,2020_typoUrbanCoreInfluence,2020_typoNoUrbanCoreInfluence
+region,total,age0_19,age20_64,age65+,sexMale,sexFemale,citizenSwiss,citizenForeign,maritalSingle,maritalMarried,maritalWidowed,maritalDivorced,maritalUnmarried,martialRegistredPartnership,maritalDisolvedPartnership,typoUrbanCore,typoUrbanCoreInfluence,typoNoUrbanCoreInfluence
 AG,8.01%,8.14%,8.04%,7.74%,8.11%,7.90%,8.00%,8.01%,7.63%,8.55%,7.60%,7.62%,5.35%,5.91%,5.64%,6.97%,11.07%,7.88%
 AI,0.19%,0.20%,0.18%,0.20%,0.19%,0.18%,0.22%,0.08%,0.19%,0.20%,0.21%,0.13%,0.16%,0.03%,0.07%,0.00%,0.00%,1.24%
 AR,0.64%,0.65%,0.62%,0.69%,0.65%,0.63%,0.71%,0.41%,0.60%,0.67%,0.69%,0.65%,0.16%,0.46%,0.40%,0.29%,1.41%,0.98%
