@@ -23,8 +23,8 @@ for i in list_dataset:
     i[j] = round(i[j]/i[j][26], 4)
 
 # Export Processed DataFrames
-df2016.to_csv('/content/drive/MyDrive/Datasets/2016_popStructureAbsolute.csv')
-df2017.to_csv('/content/drive/MyDrive/Datasets/2017_popStructureAbsolute.csv')
-df2018.to_csv('/content/drive/MyDrive/Datasets/2018_popStructureAbsolute.csv')
-df2019.to_csv('/content/drive/MyDrive/Datasets/2019_popStructureAbsolute.csv')
-df2020.to_csv('/content/drive/MyDrive/Datasets/2020_popStructureAbsolute.csv')
+df2016.to_csv('/content/drive/MyDrive/Datasets/2016_popStructureCountryRelative.csv')
+df2017.to_csv('/content/drive/MyDrive/Datasets/2017_popStructureCountryRelative.csv')
+df2018.to_csv('/content/drive/MyDrive/Datasets/2018_popStructureCountryRelative.csv')
+df2019.to_csv('/content/drive/MyDrive/Datasets/2019_popStructureCountryRelative.csv')
+df2020.to_csv('/content/drive/MyDrive/Datasets/2020_popStructureCountryRelative.csv')
