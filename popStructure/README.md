@@ -1,4 +1,4 @@
-## popStructure Metadata & Attributes
+## popStructure: Metadata & Attributes
 
 ### **Files**
 - ```20XX_popStructureAbsolute.csv```: absolute numbers of people per canton
