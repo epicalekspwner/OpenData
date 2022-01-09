@@ -18,7 +18,7 @@
 - **Periodicity**: 2010-2020
 - **Language**: EN, FR, DE, IT
 - **Format**: XLSX
-- **Size**: 89 kB
+- **Size**: 89kB
 
 #### Dataset Attributes
 - **Name**: See below
