@@ -14,7 +14,7 @@ df2020 = 'https://raw.githubusercontent.com/epicalekspwner/OpenData/main/popStru
 list_dataset = [df2016, df2017, df2018, df2019, df2020]
 
 # Get Column Names and Drop Useless Attribute
-attr = list(df.columns)
+attr = list(df2016.columns)
 attr.remove('region')
 
 # Iteration and Convertion Into Percentage (Within Country)
