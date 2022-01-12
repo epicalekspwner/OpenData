@@ -55,31 +55,31 @@
 ### Attributes
 
 #### Total
-- ```total```
+- ```total```: Total number of permanent citizens
 
 #### Age
-- ```age0_19```
-- ```age20_64```
-- ```age65+```
+- ```age0_19```: Number of permanent citizens aged between 0 and 19 years
+- ```age20_64```: Number of permanent citizens aged between 20 and 64 years
+- ```age65+```: Number of permanent citizens aged 65 years and over
 
 #### Sex
-- ```sexMale```
-- ```sexFemale``` 
+- ```sexMale```: Number of permanent male citizens
+- ```sexFemale```: Number of permanent female citizens
 
 #### Citizenship
-- ```citizenSwiss```
-- ```citizenForeign``` 
+- ```citizenSwiss```: Number of permanent citizens having Swiss nationality
+- ```citizenForeign```: Number of permanent citizens having foreign nationality 
 
 #### Marital Status
-- ```maritalSingle```
-- ```maritalMarried```
-- ```maritalWidowed```
-- ```maritalDivorced```
-- ```maritalUnmarried```
-- ```martialRegistredPartnership```
-- ```maritalDisolvedPartnership```
+- ```maritalSingle```: Number of permanent citizens declared to be single by their marital status
+- ```maritalMarried```: Number of permanent citizens declared to be married by their marital status
+- ```maritalWidowed```: Number of permanent citizens declared to be widowed by their marital status
+- ```maritalDivorced```: Number of permanent citizens declared to be divorced by their marital status
+- ```maritalUnmarried```: Number of permanent citizens declared to be unmarried by their marital status
+- ```martialRegistredPartnership```: Number of permanent citizens declared to be in a registred partnership by their marital status
+- ```maritalDisolvedPartnership```: Number of permanent citizens declared to be in a disolved partnership by their marital status
 
 #### Typology: Area with Urban Character
-- ```typoUrbanCore```
-- ```typoUrbanCoreInfluence```
-- ```typoNoUrbanCoreInfluence```
+- ```typoUrbanCore```: Number of permanent citizens living in a urban core area
+- ```typoUrbanCoreInfluence```: Number of permanent citizens living in a area influenced by urban cores
+- ```typoNoUrbanCoreInfluence```: Number of permanent citizens living in a area beyond urban core influence
