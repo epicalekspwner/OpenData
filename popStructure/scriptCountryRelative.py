@@ -5,12 +5,12 @@ drive.mount('/content/drive')
 # Import Pandas Library
 import pandas as pd
 
-# Import and Load Data Into DataFrames
-df2016 = 'https://raw.githubusercontent.com/epicalekspwner/OpenDataCustomerAnalytics/main/popStructure/2016_popStructureAbsolute.csv'
-df2017 = 'https://raw.githubusercontent.com/epicalekspwner/OpenDataCustomerAnalytics/main/popStructure/2017_popStructureAbsolute.csv'
-df2018 = 'https://raw.githubusercontent.com/epicalekspwner/OpenDataCustomerAnalytics/main/popStructure/2018_popStructureAbsolute.csv'
-df2019 = 'https://raw.githubusercontent.com/epicalekspwner/OpenDataCustomerAnalytics/main/popStructure/2019_popStructureAbsolute.csv'
-df2020 = 'https://raw.githubusercontent.com/epicalekspwner/OpenDataCustomerAnalytics/main/popStructure/2020_popStructureAbsolute.csv'
+# Import, Load Data Into DataFrames & Replace 'XXX' With Actual Token
+df2016 = pd.read_csv('https://raw.githubusercontent.com/epicalekspwner/OpenDataCustomerAnalytics/main/demographicsStructure/2016_demographicsStructureAbsolute.csv?token=XXX')
+df2017 = pd.read_csv('https://raw.githubusercontent.com/epicalekspwner/OpenDataCustomerAnalytics/main/demographicsStructure/2017_demographicsStructureAbsolute.csv?token=XXX')
+df2018 = pd.read_csv('https://raw.githubusercontent.com/epicalekspwner/OpenDataCustomerAnalytics/main/demographicsStructure/2018_demographicsStructureAbsolute.csv?token=XXX')
+df2019 = pd.read_csv('https://raw.githubusercontent.com/epicalekspwner/OpenDataCustomerAnalytics/main/demographicsStructure/2019_demographicsStructureAbsolute.csv?token=XXX')
+df2020 = pd.read_csv('https://raw.githubusercontent.com/epicalekspwner/OpenDataCustomerAnalytics/main/demographicsStructure/2020_demographicsStructureAbsolute.csv?token=XXX')
 list_dataset = [df2016, df2017, df2018, df2019, df2020]
 
 # Get Column Names and Drop Useless Attribute
@@ -23,8 +23,8 @@ for i in list_dataset:
     i[j] = round(i[j]/i[j][26], 4)
 
 # Export Processed DataFrames
-df2016.to_csv('/content/drive/MyDrive/Datasets/2016_popStructureCountryRelative.csv')
-df2017.to_csv('/content/drive/MyDrive/Datasets/2017_popStructureCountryRelative.csv')
-df2018.to_csv('/content/drive/MyDrive/Datasets/2018_popStructureCountryRelative.csv')
-df2019.to_csv('/content/drive/MyDrive/Datasets/2019_popStructureCountryRelative.csv')
-df2020.to_csv('/content/drive/MyDrive/Datasets/2020_popStructureCountryRelative.csv')
+df2016.to_csv('/content/drive/MyDrive/Datasets/2016_demographicsStructureCountryRelative.csv')
+df2017.to_csv('/content/drive/MyDrive/Datasets/2017_demographicsStructureCountryRelative.csv')
+df2018.to_csv('/content/drive/MyDrive/Datasets/2018_demographicsStructureCountryRelative.csv')
+df2019.to_csv('/content/drive/MyDrive/Datasets/2019_demographicsStructureCountryRelative.csv')
+df2020.to_csv('/content/drive/MyDrive/Datasets/2020_demographicsStructureCountryRelative.csv')
