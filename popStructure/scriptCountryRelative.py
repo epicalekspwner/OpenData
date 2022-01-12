@@ -6,11 +6,11 @@ drive.mount('/content/drive')
 import pandas as pd
 
 # Import and Load Data Into DataFrames
-df2016 = 'https://raw.githubusercontent.com/epicalekspwner/OpenData/main/popStructure/2016_popStructureAbsolute.csv'
-df2017 = 'https://raw.githubusercontent.com/epicalekspwner/OpenData/main/popStructure/2017_popStructureAbsolute.csv'
-df2018 = 'https://raw.githubusercontent.com/epicalekspwner/OpenData/main/popStructure/2018_popStructureAbsolute.csv'
-df2019 = 'https://raw.githubusercontent.com/epicalekspwner/OpenData/main/popStructure/2019_popStructureAbsolute.csv'
-df2020 = 'https://raw.githubusercontent.com/epicalekspwner/OpenData/main/popStructure/2020_popStructureAbsolute.csv'
+df2016 = 'https://raw.githubusercontent.com/epicalekspwner/OpenDataCustomerAnalytics/main/popStructure/2016_popStructureAbsolute.csv'
+df2017 = 'https://raw.githubusercontent.com/epicalekspwner/OpenDataCustomerAnalytics/main/popStructure/2017_popStructureAbsolute.csv'
+df2018 = 'https://raw.githubusercontent.com/epicalekspwner/OpenDataCustomerAnalytics/main/popStructure/2018_popStructureAbsolute.csv'
+df2019 = 'https://raw.githubusercontent.com/epicalekspwner/OpenDataCustomerAnalytics/main/popStructure/2019_popStructureAbsolute.csv'
+df2020 = 'https://raw.githubusercontent.com/epicalekspwner/OpenDataCustomerAnalytics/main/popStructure/2020_popStructureAbsolute.csv'
 list_dataset = [df2016, df2017, df2018, df2019, df2020]
 
 # Get Column Names and Drop Useless Attribute
