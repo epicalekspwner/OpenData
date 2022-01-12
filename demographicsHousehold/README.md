@@ -2,8 +2,8 @@
 
 ### **Files**
 - *Note: only the last 5 years are being considerated!*
-- ```20XX_demographicsStructureAbsolute.csv```: absolute numbers of households per canton
-- ```20XX_demographicsStructureCantonRelative.csv```: relative numbers of households (percentages) within the canton
+- ```20XX_demographicsHouseholdAbsolute.csv```: absolute numbers of households per canton
+- ```20XX_demographicsHouseholdCantonRelative.csv```: relative numbers of households (percentages) within the canton
 
 ### Metadata
 
