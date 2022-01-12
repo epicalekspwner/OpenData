@@ -24,11 +24,11 @@
 - **Names**: See below
 - **Values**: Numerical
 - **Types**:
-  - Number of households: Discrete
-  - Average size of households: Continuous
+  - **Number of households**: Discrete
+  - **Average size of households**: Continuous
 - **Units**: 
-  - Number of households: Number of households
-  - Average size of households: Number of people
+  - **Number of households**: Number of households
+  - **Average size of households**: Number of people
 
 #### Level of Detail
 - **Spatial Coverage**: Switzerland
