@@ -1,10 +1,10 @@
-## popStructure: Files, Metadata & Attributes
+## demographicsStructure: Files, Metadata & Attributes
 
 ### **Files**
 - *Note: only the last 5 years are being considerated!*
-- ```20XX_popStructureAbsolute.csv```: absolute numbers of people per canton
-- ```20XX_popStructureCantonRelative.csv```: relative numbers of people (percentages) within the canton
-- ```20XX_popStructureCountryRelative.csv```: relative numbers of people (percentages) within the country
+- ```20XX_demographicsStructureAbsolute.csv```: absolute numbers of people per canton
+- ```20XX_demographicsStructureCantonRelative.csv```: relative numbers of people (percentages) within the canton
+- ```20XX_demographicsStructureCountryRelative.csv```: relative numbers of people (percentages) within the country
 
 ### Metadata
 
