@@ -58,31 +58,15 @@
 ### Attributes
 
 #### Total
-- ```total```
+- ```total```: Total number of households
 
-#### Age
-- ```age0_19```
-- ```age20_64```
-- ```age65+```
+#### Numbers of Households
+- ```1personHousehold```: Number of one-person households
+- ```2personHousehold```: Number of two-person households
+- ```3personHousehold```: Number of three-person households
+- ```4personHousehold```: Number of four-person households
+- ```5personHousehold```: Number of five-person households
+- ```6+personHousehold```: Number of households with six or more persons
 
-#### Sex
-- ```sexMale```
-- ```sexFemale``` 
-
-#### Citizenship
-- ```citizenSwiss```
-- ```citizenForeign``` 
-
-#### Marital Status
-- ```maritalSingle```
-- ```maritalMarried```
-- ```maritalWidowed```
-- ```maritalDivorced```
-- ```maritalUnmarried```
-- ```martialRegistredPartnership```
-- ```maritalDisolvedPartnership```
-
-#### Typology: Area with Urban Character
-- ```typoUrbanCore```
-- ```typoUrbanCoreInfluence```
-- ```typoNoUrbanCoreInfluence```
+#### Average Size of Households
+- ```averageSizeHousehold```: Average number of people per household
