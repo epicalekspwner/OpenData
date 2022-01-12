@@ -1,4 +1,4 @@
-## popHousehold: Files, Metadata & Attributes [TO BE MODIFIED]
+## popHousehold: Files, Metadata & Attributes
 
 ### **Files**
 - *Note: only the last 5 years are being considerated!*
