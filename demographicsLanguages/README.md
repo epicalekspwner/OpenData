@@ -58,7 +58,9 @@
 ### Attributes
 
 #### Region
-- ```region```: Region of interest (canton (AG, AI, AR, BE, BL, BS, FR, GE, GL, GR, JU, LU, NE, NW, OW, SG, SH, SO, SZ, TG, TI, UR, VD, VS, ZG, ZH) or CH) 
+- ```region```: Region of interest 
+  - **Canton**: AG, AI, AR, BE, BL, BS, FR, GE, GL, GR, JU, LU, NE, NW, OW, SG, SH, SO, SZ, TG, TI, UR, VD, VS, ZG, ZH 
+  - **Country**: CH 
 
 #### Total
 - ```total```: Total number of permanent citizens above 15 years
