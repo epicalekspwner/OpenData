@@ -72,21 +72,21 @@
 - ```romansh```: Number of permanent citizens above 15 years speaking Romansh
 - ```english```: Number of permanent citizens above 15 years speaking English
 - ```portuguese```: Number of permanent citizens above 15 years speaking Portuguese
-- ```serbian&croatian```: Number of permanent citizens above 15 years speaking Serbian or Croatian
+- ```serbianCroatian```: Number of permanent citizens above 15 years speaking Serbian or Croatian
 - ```albanian```: Number of permanent citizens above 15 years speaking Albanian
 - ```spanish```: Number of permanent citizens above 15 years speaking Spanish
 - ```turkish```: Number of permanent citizens above 15 years speaking Turkish
 - ```otherLanguages```: Number of permanent citizens above 15 years speaking other languages
 
 #### Confidence intervals
-- ```germanIC```: confidence interval for German or Swiss-German
-- ```frenchIC```: confidence interval for French or Waldensian Patois
-- ```italianIC```: confidence interval for Italian or Ticino dialect/Graubünden Italian
-- ```romanshIC```: confidence interval for Romansh
-- ```englishIC```: confidence interval for English
-- ```portugueseIC```: confidence interval for Portuguese
-- ```serbian&croatianIC```: confidence interval for Serbian or Croatian
-- ```albanianIC```: confidence interval for Albanian 
-- ```spanishIC```: confidence interval for Spanish
-- ```turkishIC```: confidence interval for Turkish
-- ```otherLanguagesIC```: confidence interval for other languages
+- ```german_IC```: confidence interval for German or Swiss-German
+- ```french_IC```: confidence interval for French or Waldensian Patois
+- ```italian_IC```: confidence interval for Italian or Ticino dialect/Graubünden Italian
+- ```romansh_IC```: confidence interval for Romansh
+- ```english_IC```: confidence interval for English
+- ```portuguese_IC```: confidence interval for Portuguese
+- ```serbianCroatian_IC```: confidence interval for Serbian or Croatian
+- ```albanian_IC```: confidence interval for Albanian 
+- ```spanish_IC```: confidence interval for Spanish
+- ```turkish_IC```: confidence interval for Turkish
+- ```otherLanguages_IC```: confidence interval for other languages
