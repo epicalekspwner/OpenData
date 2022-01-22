@@ -1,4 +1,4 @@
-region,total,german,germanIC,french,frenchIC,italian,italianIC,romansh,romanshIC,english,englishIC,portuguese,portugueseIC,serbian&croatian,serbian&croatianIC,albanian,albanianIC,spanish,spanishIC,turkish,turkishIC,otherLanguages,otherLanguagesIC
+region,total,german,german_IC,french,french_IC,italian,italian_IC,romansh,romansh_IC,english,english_IC,portuguese,portuguese_IC,serbianCroatian,serbianCroatian_IC,albanian,albanian_IC,spanish,spanish_IC,turkish,turkish_IC,otherLanguages,otherLanguages_IC
 AG,559727,487015,0.006,10338,0.110,30028,0.065,1056,0.349,25345,0.071,9627,0.120,19393,0.084,23411,0.080,8691,0.124,10484,0.116,36158,0.062
 AI,13295,12449,0.028,NaN,NaN,324,0.683,NaN,NaN,467,0.558,NaN,NaN,307,0.744,NaN,NaN,NaN,NaN,NaN,NaN,442,0.610
 AR,46019,42011,0.016,567,0.467,946,0.363,NaN,NaN,1701,0.276,628,0.468,1466,0.309,845,0.423,388,0.586,271,0.744,2671,0.227
