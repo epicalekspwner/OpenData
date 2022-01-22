@@ -1,4 +1,4 @@
-region;total;total_IC;withoutPostCompulsoryEducation;withoutPostCompulsoryEducation_IC;secondLevel2ProfessionalTraining;secondLevel2ProfessionalTraining_IC;secondLevel2GeneralTraining;secondLevel2GeneralTraining_IC;thirdLevelHigherProfessionalTraining;thirdLevelHigherProfessionalTraining_IC;thirdLevelUniversities;thirdLevelUniversities_IC
+region,total,total_IC,withoutPostCompulsoryEducation,withoutPostCompulsoryEducation_IC,secondLevel2ProfessionalTraining,secondLevel2ProfessionalTraining_IC,secondLevel2GeneralTraining,secondLevel2GeneralTraining_IC,thirdLevelHigherProfessionalTraining,thirdLevelHigherProfessionalTraining_IC,thirdLevelUniversities,thirdLevelUniversities_IC
 AG;482132;0,6;88216;3,6;200293;2,0;43747;5,3;80169;3,7;69707;4,1
 AI;11095;4,5;2732;19,6;4729;13,3;766;41,6;1551;26,1;1317;29,2
 AR;39525;2,2;8099;11,6;16378;7,2;4046;17,5;6156;13,7;4846;16,0
