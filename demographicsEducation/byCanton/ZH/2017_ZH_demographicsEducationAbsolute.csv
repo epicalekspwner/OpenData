@@ -18,7 +18,7 @@ migratoryBackgroundUnknown,4761,16.1,1328,30.7,1830,25.6,458,52.0,793,39.5,352,6
 labourMarketEmployedPersons,749402,0.8,83232,3.9,220043,2.2,66855,4.3,127473,3.0,251799,2.0
 labourMarketUnemployedPersons,28778,6.8,6090,15.3,8065,12.8,2973,21.4,3149,20.3,8502,12.5
 labourMarketPersonsWithoutProfessionalActivity,326104,1.6,84426,3.7,130281,2.8,34163,5.9,35742,5.6,41492,5.4
-socioprofessionalCategoriesENaNecutives,36771,5.8,3005,21.3,5073,15.6,2507,22.9,7707,12.6,18479,8.2
+socioprofessionalCategoriesExecutives,36771,5.8,3005,21.3,5073,15.6,2507,22.9,7707,12.6,18479,8.2
 socioprofessionalCategoriesLiberalAndSimilar,19974,7.8,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,19974,7.8
 socioprofessionalCategoriesOtherSelfEmployed,57856,4.5,5671,15.1,23204,7.2,6796,13.5,16801,8.5,5385,15.4
 socioprofessionalCategoriesIntellectualAndManagerial,172150,2.5,823,40.6,4913,16.0,2265,23.9,8198,12.3,155951,2.7
