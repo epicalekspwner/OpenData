@@ -33,15 +33,15 @@ attrToBeRemoved = ['total', 'attribute', 'total_IC','withoutPostCompulsoryEducat
 for i in attrToBeRemoved:
   attr.remove(i)
 
-# Get Column Names For IC Percent Formating                                     # Added
-attr_IC = ['total_IC','withoutPostCompulsoryEducation_IC','secondLevel2ProfessionalTraining_IC','secondLevel2GeneralTraining_IC','thirdLevelHigherProfessionalTraining_IC','thirdLevelUniversities_IC'] #ERROR LAST ONE
+# Get Column Names For IC Percent Formating
+attr_IC = ['total_IC','withoutPostCompulsoryEducation_IC','secondLevel2ProfessionalTraining_IC','secondLevel2GeneralTraining_IC','thirdLevelHigherProfessionalTraining_IC','thirdLevelUniversities_IC']
 
 # Iteration and Convertion Into Percentage (Within Canton)
 for i in range(len(dictDataFrames)):
   for j in attr:
     dictDataFrames[keys[i]][j] = round(dictDataFrames[keys[i]][j]/dictDataFrames[keys[i]]['total'], 4)
-  for k in attr_IC:                                                             # Added
-    dictDataFrames[keys[i]][k] = round(dictDataFrames[keys[i]][k]/100, 3)       # Added
+  for k in attr_IC:
+    dictDataFrames[keys[i]][k] = round(dictDataFrames[keys[i]][k]/100, 3)
 for i in range(len(dictDataFrames)):
   dictDataFrames[keys[i]]['total'] = round(dictDataFrames[keys[i]]['total']/dictDataFrames[keys[i]]['total'], 4)
     
