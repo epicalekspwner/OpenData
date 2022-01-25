@@ -1,4 +1,4 @@
-attribute,total,total_IC,withoutPostCompulsoryEducation,withoutPostCompulsoryEducation_IC,secondLevel2ProfessionalTraining,secondLevel2ProfessionalTraining_IC,secondLevel2GeneralTraining,secondLevel2GeneralTraining_IC,thirdLevelHigherProfessionalTraining,thirdLevelHigherProfessionalTraining_IC,thirdLevelUniversities,
+attribute,total,total_IC,withoutPostCompulsoryEducation,withoutPostCompulsoryEducation_IC,secondLevel2ProfessionalTraining,secondLevel2ProfessionalTraining_IC,secondLevel2GeneralTraining,secondLevel2GeneralTraining_IC,thirdLevelHigherProfessionalTraining,thirdLevelHigherProfessionalTraining_IC,thirdLevelUniversities,thirdLevelUniversities_IC
 total,324763,0.6,83111,2.6,66035,2.9,33601,4.3,33565,4.3,108450,2.2
 sexMale,153667,1.7,36296,4.3,33370,4.3,12990,7.3,18160,6.0,52852,3.5
 sexFemale,171096,1.5,46816,3.6,32666,4.2,20611,5.6,15405,6.4,55598,3.3
