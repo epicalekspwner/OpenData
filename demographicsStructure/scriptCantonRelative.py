@@ -6,7 +6,7 @@ drive.mount('/content/drive')
 import pandas as pd
 
 # Set Periodicity From 2016 to 2020
-periodicity = range(2016,2021)
+periodicity = range(2016, 2021)
 
 # Create New Dictionary
 dictURL = {}
@@ -41,4 +41,4 @@ for i in range(len(dictDataFrames)):
 yearList = list(periodicity)
 for i in range(len(dictDataFrames)):
   exportLink = '/content/drive/MyDrive/Datasets/{0}_demographicsStructureCantonRelative.csv'.format(yearList[i])
-  dictDataFrames[keys[i]].to_csv(exportLink)    
+  dictDataFrames[keys[i]].to_csv(exportLink)
