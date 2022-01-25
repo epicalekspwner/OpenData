@@ -27,18 +27,23 @@ dictDataFrames = {}
 for i in range(len(keys)):
   dictDataFrames['{0}'.format(keys[i])] = pd.read_csv(dictURL[keys[i]])
 
-# Get Column Names and Drop Useless Attribute
+# Get Column Names and Drop Useless Attribute for Relativeness
 attr = list(dictDataFrames[keys[0]].columns)
 attrToBeRemoved = ['total', 'attribute', 'total_IC','withoutPostCompulsoryEducation_IC','secondLevel2ProfessionalTraining_IC','secondLevel2GeneralTraining_IC','thirdLevelHigherProfessionalTraining_IC','thirdLevelUniversities_IC']
 for i in attrToBeRemoved:
   attr.remove(i)
-  
+
+# Get Column Names For IC Percent Formating                                     # Added
+attr_IC = ['total_IC','withoutPostCompulsoryEducation_IC','secondLevel2ProfessionalTraining_IC','secondLevel2GeneralTraining_IC','thirdLevelHigherProfessionalTraining_IC','thirdLevelUniversities_IC'] #ERROR LAST ONE
+
 # Iteration and Convertion Into Percentage (Within Canton)
 for i in range(len(dictDataFrames)):
   for j in attr:
     dictDataFrames[keys[i]][j] = round(dictDataFrames[keys[i]][j]/dictDataFrames[keys[i]]['total'], 4)
-  for i in range(len(dictDataFrames)):
-    dictDataFrames[keys[i]]['total'] = round(dictDataFrames[keys[i]]['total']/dictDataFrames[keys[i]]['total'], 4)
+  for k in attr_IC:                                                             # Added
+    dictDataFrames[keys[i]][k] = round(dictDataFrames[keys[i]][k]/100, 3)       # Added
+for i in range(len(dictDataFrames)):
+  dictDataFrames[keys[i]]['total'] = round(dictDataFrames[keys[i]]['total']/dictDataFrames[keys[i]]['total'], 4)
     
 # Export DataFrames
 for i in dictDataFrames.keys():
