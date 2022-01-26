@@ -1,7 +1,7 @@
 ## demographicsLanguages: Files, Metadata & Attributes
 
 ### **Files**
-- *Note: only the last 4 years are being considerated for simplification and data relevance purposes!*
+- *Note: only the last 5 years are being considerated for simplification and data relevance purposes!*
 - ```20XX_demographicsLanguagesAbsolute.csv```: absolute numbers per canton of permanent citizens above 15 years speaking a given language
 - ```20XX_demographicsLanguagesCantonRelative.csv```: relative numbers per canton of permanent citizens above 15 years (percentages) speaking a given language
 
@@ -14,11 +14,11 @@
 #### Dataset
 - **Title**: Langues principales selon les cantons
 - **Identifier**: je-f-01.08.01.02
-- **Publishing Date**: 25.01.2021
-- **Periodicity**: 2010-209
+- **Publishing Date**: 24.01.2022
+- **Periodicity**: 2010-2020
 - **Language**: FR, DE, IT
 - **Format**: XLSX
-- **Size**: 141kB
+- **Size**: 155kB
 
 #### Dataset Attributes
 - **Names**: See below
@@ -32,7 +32,7 @@
 
 #### Level of Detail
 - **Spatial Coverage**: Switzerland
-- **Temporal Coverage**: 2010-2019
+- **Temporal Coverage**: 2010-2020
 - **Spacial Granularity**: Canton
 - **Temporal Granularity**: Annual
 
@@ -53,7 +53,7 @@
 
 #### Distribution
 - **Access URL**: https://www.bfs.admin.ch/bfs/en/home/statistics/catalogues-databases.assetdetail.je-f-01.08.01.02.html
-- **Download URL**: https://www.bfs.admin.ch/bfsstatic/dam/assets/15384575/master
+- **Download URL**: https://www.bfs.admin.ch/bfsstatic/dam/assets/20964068/master
 
 ### Attributes
 
