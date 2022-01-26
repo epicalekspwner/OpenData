@@ -29,7 +29,7 @@ for i in range(len(keys)):
 attr = list(dictDataFrames[keys[0]].columns)
 attr.remove('region')
 attr.remove('total')
-languageIC = ['german_IC','french_IC','italian_IC','romansh_IC','english_IC','portuguese_IC','serbianCroatian_IC','albanian_IC','spanish_IC','turkish_IC','otherLanguages_IC']
+languageIC = ['german_IC','french_IC','italian_IC','romansh_IC','english_IC','portuguese_IC','bosnianCroatianMontenegrinSerbian_IC','albanian_IC','spanish_IC','turkish_IC','otherLanguages_IC']
 for i in languageIC:
   attr.remove(i)
   
@@ -37,11 +37,11 @@ for i in languageIC:
 for i in range(len(dictDataFrames)):
   for j in attr:
     dictDataFrames[keys[i]][j] = round(dictDataFrames[keys[i]][j]/dictDataFrames[keys[i]]['total'], 4)
-  for i in range(len(dictDataFrames)):
+for i in range(len(dictDataFrames)):
     dictDataFrames[keys[i]]['total'] = round(dictDataFrames[keys[i]]['total']/dictDataFrames[keys[i]]['total'], 4)
     
 # Export DataFrames
 yearList = list(periodicity)
 for i in range(len(dictDataFrames)):
   exportLink = '/content/drive/MyDrive/Datasets/{0}_demographicsLanguagesCantonRelative.csv'.format(yearList[i])
-  dictDataFrames[keys[i]].to_csv(exportLink, na_rep = 'NaN', index = False)
+  dictDataFrames[keys[i]].to_csv(exportLink, na_rep = 'NaN', index = False, float_format='%g')
