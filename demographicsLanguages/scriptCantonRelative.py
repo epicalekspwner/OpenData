@@ -44,4 +44,4 @@ for i in range(len(dictDataFrames)):
 yearList = list(periodicity)
 for i in range(len(dictDataFrames)):
   exportLink = '/content/drive/MyDrive/Datasets/{0}_demographicsLanguagesCantonRelative.csv'.format(yearList[i])
-  dictDataFrames[keys[i]].to_csv(exportLink)
+  dictDataFrames[keys[i]].to_csv(exportLink, na_rep = 'NaN', index = False)
