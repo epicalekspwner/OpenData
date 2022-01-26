@@ -72,7 +72,7 @@
 - ```romansh```: Number of permanent citizens above 15 years speaking Romansh
 - ```english```: Number of permanent citizens above 15 years speaking English
 - ```portuguese```: Number of permanent citizens above 15 years speaking Portuguese
-- ```serbianCroatian```: Number of permanent citizens above 15 years speaking Serbian or Croatian
+- ```bihCroMneSrb```: Number of permanent citizens above 15 years speaking Serbian or Croatian
 - ```albanian```: Number of permanent citizens above 15 years speaking Albanian
 - ```spanish```: Number of permanent citizens above 15 years speaking Spanish
 - ```turkish```: Number of permanent citizens above 15 years speaking Turkish
@@ -85,7 +85,7 @@
 - ```romansh_IC```: confidence interval for Romansh
 - ```english_IC```: confidence interval for English
 - ```portuguese_IC```: confidence interval for Portuguese
-- ```serbianCroatian_IC```: confidence interval for Serbian or Croatian
+- ```bihCroMneSrb_IC```: confidence interval for Serbian or Croatian
 - ```albanian_IC```: confidence interval for Albanian 
 - ```spanish_IC```: confidence interval for Spanish
 - ```turkish_IC```: confidence interval for Turkish
