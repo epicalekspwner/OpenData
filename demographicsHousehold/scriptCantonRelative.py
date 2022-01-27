@@ -36,7 +36,7 @@ for i in range(len(dictDataFrames)):
   for j in attr:
     dictDataFrames[keys[i]][j] = round(dictDataFrames[keys[i]][j]/dictDataFrames[keys[i]]['total'], 4)
 for i in range(len(dictDataFrames)):
-    dictDataFrames[keys[i]]['total'] = round(dictDataFrames[keys[i]]['total']/dictDataFrames[keys[i]]['total'], 4)
+  dictDataFrames[keys[i]]['total'] = round(dictDataFrames[keys[i]]['total']/dictDataFrames[keys[i]]['total'], 4)
 
 # Export DataFrames
 yearList = list(periodicity)
