@@ -19,7 +19,7 @@ for year in periodicity:
 keys = list(dictURL.keys())
 
 # Create New Dictionary for Storing the DataFranes
-  dictDataFrames = {}
+dictDataFrames = {}
   
 # Accessing the Original Datasets Through URLs and Converting Them Into DataFrames
 for i in range(len(keys)):
@@ -34,8 +34,8 @@ attr.remove('total')
 for i in range(len(dictDataFrames)):
   for j in attr:
     dictDataFrames[keys[i]][j] = round(dictDataFrames[keys[i]][j]/dictDataFrames[keys[i]]['total'], 4)
-  for i in range(len(dictDataFrames)):
-    dictDataFrames[keys[i]]['total'] = round(dictDataFrames[keys[i]]['total']/dictDataFrames[keys[i]]['total'], 4)
+for i in range(len(dictDataFrames)):
+  dictDataFrames[keys[i]]['total'] = round(dictDataFrames[keys[i]]['total']/dictDataFrames[keys[i]]['total'], 4)
 
 # Export DataFrames
 yearList = list(periodicity)
