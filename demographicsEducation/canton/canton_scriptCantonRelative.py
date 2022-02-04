@@ -7,7 +7,7 @@ import pandas as pd
 
 # Set Cantons and Periodicity
 canton = ['AG', 'AI', 'AR', 'BE', 'BL', 'BS', 'FR', 'GE', 'GL', 'GR', 'JU', 'LU', 'NE', 'NW', 'OW', 'SG', 'SH', 'SO', 'SZ', 'TG', 'TI', 'UR', 'VD', 'VS', 'ZG', 'ZH']
-periodicity = list(range(2016, 2020))
+periodicity = list(range(2016, 2021))
 
 # Create New Dictionary
 dictURL = {}
@@ -15,7 +15,7 @@ dictURL = {}
 # Create Corresponding URLs and Store Them in the Dictionary Created Beforehand
 for c in canton:
   for year in periodicity:
-    dictURL['{0}_{1}'.format(year,c)] ='https://raw.githubusercontent.com/epicalekspwner/OpenDataCustomerAnalytics/main/demographicsEducation/byCanton/' + str(c) + '/' + str(year) +'_' + str(c) + '_demographicsEducationAbsolute.csv'
+    dictURL['{0}_{1}'.format(year,c)] ='https://raw.githubusercontent.com/epicalekspwner/OpenDataCustomerAnalytics/main/demographicsEducation/canton/' + str(c) + '/' + str(year) +'_' + str(c) + '_demographicsEducation_Absolute.csv'
 
 # Get the Dictionary Keys to Access the URLs
 keys = list(dictURL.keys())
