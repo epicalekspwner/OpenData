@@ -15,7 +15,7 @@ dictURL = {}
 # Create Corresponding URLs and Store Them in the Dictionary Created Beforehand
 for c in canton:
   for year in periodicity:
-    dictURL['{0}_{1}'.format(year,c)] ='https://raw.githubusercontent.com/epicalekspwner/OpenDataCustomerAnalytics/main/demographicsEducation/canton/' + str(c) + '/' + str(year) +'_' + str(c) + '_demographicsEducation_Absolute.csv'
+    dictURL['{0}_{1}'.format(year,c)] ='https://raw.githubusercontent.com/epicalekspwner/OpenDataCustomerAnalytics/main/demographicsEducation/canton/' + str(c) + '/Absolute/'  + str(year) +'_' + str(c) + '_demographicsEducation_Absolute.csv'
 
 # Get the Dictionary Keys to Access the URLs
 keys = list(dictURL.keys())
