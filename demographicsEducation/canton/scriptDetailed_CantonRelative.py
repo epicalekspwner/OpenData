@@ -47,5 +47,5 @@ for i in range(len(dictDataFrames)):
     
 # Export DataFrames
 for i in dictDataFrames.keys():
-  exportLink = '/content/drive/MyDrive/Datasets/{0}_demographicsEducationCantonRelative.csv'.format(i)
+  exportLink = '/content/drive/MyDrive/Datasets1/{0}/{1}_demographicsEducationCantonRelative.csv'.format(i[-2:],i)
   dictDataFrames[i].to_csv(exportLink, na_rep = 'NaN', index = False)
