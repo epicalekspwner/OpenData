@@ -1,6 +1,6 @@
 # scriptDetailed_CantonRelative
 # Convert Absolute Values Into Relative Ones
-# demographicsEducation/canton
+# /demographicsEducation/canton/
 
 # Import Pandas Library
 import pandas as pd
