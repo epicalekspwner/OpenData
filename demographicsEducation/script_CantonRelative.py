@@ -27,8 +27,7 @@ for i in range(len(keys)):
 
 # Get Column Names and Drop Useless Attribute for Relativeness
 attr = list(dictDataFrames[keys[0]].columns)
-attrToBeRemoved = ['region', 'total', 'total_IC', 'withoutPostCompulsoryEducation_IC', 'secondLevel2ProfessionalTraining_IC',
-                   'secondLevel2GeneralTraining_IC', 'thirdLevelHigherProfessionalTraining_IC', 'thirdLevelUniversities_IC']
+attrToBeRemoved = ['region', 'total', 'total_IC', 'withoutPostCompulsoryEducation_IC', 'secondLevel2ProfessionalTraining_IC', 'secondLevel2GeneralTraining_IC', 'thirdLevelHigherProfessionalTraining_IC', 'thirdLevelUniversities_IC']
 for i in attrToBeRemoved:
     attr.remove(i)
 
