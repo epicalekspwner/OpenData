@@ -13,7 +13,7 @@ dictURL = {}
 
 # Create Corresponding URLs and Store Them in the Dictionary Created Beforehand
 for year in periodicity:
-  dictURL['{0}'.format(year)] = 'https://raw.githubusercontent.com/epicalekspwner/OpenDataCustomerAnalytics/main/demographicsEducation/' + str(year) + '_demographicsEducation_Absolute.csv'
+    dictURL['{0}'.format(year)] = 'https://raw.githubusercontent.com/epicalekspwner/OpenDataCustomerAnalytics/main/demographicsEducation/' + str(year) + '_demographicsEducation_Absolute.csv'
 
 # Get the Dictionary Keys to Access the URLs
 keys = list(dictURL.keys())
@@ -23,7 +23,7 @@ dictDataFrames = {}
 
 # Accessing the Original Datasets Through URLs and Converting Them Into DataFrames
 for i in range(len(keys)):
-  dictDataFrames['{0}'.format(keys[i])] = pd.read_csv(dictURL[keys[i]])
+    dictDataFrames['{0}'.format(keys[i])] = pd.read_csv(dictURL[keys[i]])
 
 # Get Column Names and Drop Useless Attribute for Relativeness
 attr = list(dictDataFrames[keys[0]].columns)
