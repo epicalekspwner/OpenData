@@ -1,5 +1,5 @@
 # script_CantonRelative
-# Convert Absolute Values Into Relative Ones
+# Convert Absolute Values Into Relative Ones (Within Canton)
 # /demographicsEducation/
 
 # Import Pandas Library
