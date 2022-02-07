@@ -1,6 +1,7 @@
 # script_CountryRelative
 # Convert Absolute Values Into Relative Ones (Within Country)
 # /demographicsEducation/
+# Potential SettingWithCopyWarning Can Be Ignored!
 
 # Import Pandas and OS Libraries
 import pandas as pd
@@ -35,7 +36,8 @@ for i in attrToBeRemoved:
 # Iteration and Convertion Into Percentage (Within Country)
 for i in range(len(dictDataFrames)):
     for j in attr:
-        dictDataFrames[keys[i]][j] = round(dictDataFrames[keys[i]][j]/dictDataFrames[keys[i]][j][26], 4)
+        for k in range(26):
+            dictDataFrames[keys[i]][j][k] = round(dictDataFrames[keys[i]][j][k]/dictDataFrames[keys[i]][j][26], 4)
 
 # Export Data With Automated Files Management
 for i in dictDataFrames.keys():
