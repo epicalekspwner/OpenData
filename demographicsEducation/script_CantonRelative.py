@@ -2,8 +2,9 @@
 # Convert Absolute Values Into Relative Ones (Within Canton)
 # /demographicsEducation/
 
-# Import Pandas Library
+# Import Pandas and OS Libraries
 import pandas as pd
+import os
 
 # Set Periodicity
 periodicity = list(range(2016, 2021))
@@ -38,7 +39,11 @@ for i in range(len(dictDataFrames)):
 for i in range(len(dictDataFrames)):
     dictDataFrames[keys[i]]['total'] = round(dictDataFrames[keys[i]]['total'] / dictDataFrames[keys[i]]['total'], 4)
 
-# Export DataFrames
+# Export Data With Automated Files Management
 for i in dictDataFrames.keys():
-    exportLink = 'C:/Users/aleks/OneDrive/Documents/GitHub/OpenDataCustomerAnalytics/demographicsEducation/{0}_demographicsEducation_CantonRelative.csv'.format(i)
-    dictDataFrames[i].to_csv(exportLink, na_rep='NaN', index=False)
+    exportPath = 'C:/GitHub/OpenDataCustomerAnalytics/demographicsEducation/'
+    exportPathExist = os.path.exists(exportPath)
+    if not exportPathExist:
+        os.makedirs(exportPath)
+    exportFile = 'C:/GitHub/OpenDataCustomerAnalytics/demographicsEducation/{0}_demographicsEducation_CantonRelative.csv'.format(i)
+    dictDataFrames[i].to_csv(exportFile, na_rep='NaN', index=False)
