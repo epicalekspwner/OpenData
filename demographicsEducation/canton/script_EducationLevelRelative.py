@@ -35,7 +35,7 @@ attrToBeRemoved = ['attribute', 'total_IC', 'withoutPostCompulsoryEducation_IC',
 for i in attrToBeRemoved:
     attr.remove(i)
 
-# Iteration and Convertion Into Percentage (Within Country)
+# Iteration and Convertion Into Percentage (With Regards To Education Levels)
 for i in range(len(dictDataFrames)):
     for j in attr:
         for k in range(1, 30):
