@@ -1,5 +1,5 @@
 # script_EducationLevelRelative
-# Convert Absolute Values Into Relative Ones (With Regards To Education Level)
+# Convert Absolute Values Into Relative Ones (With Regards To Education Levels)
 # /demographicsEducation/canton/
 # Potential SettingWithCopyWarning Can Be Ignored!
 
