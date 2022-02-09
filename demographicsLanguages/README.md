@@ -78,7 +78,7 @@
 - ```turkish```: Number of permanent citizens above 15 years speaking Turkish
 - ```otherLanguages```: Number of permanent citizens above 15 years speaking other languages
 
-#### Confidence intervals
+#### Confidence Intervals
 - ```german_IC```: confidence interval for German or Swiss-German
 - ```french_IC```: confidence interval for French or Waldensian Patois
 - ```italian_IC```: confidence interval for Italian or Ticino dialect/Graubünden Italian
