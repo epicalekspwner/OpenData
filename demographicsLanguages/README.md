@@ -2,8 +2,9 @@
 
 ### **Files**
 - *Note: only the last 5 years are being considerated for simplification and data relevance purposes!*
-- ```20XX_demographicsLanguagesAbsolute.csv```: absolute numbers per canton of permanent citizens above 15 years speaking a given language
-- ```20XX_demographicsLanguagesCantonRelative.csv```: relative numbers per canton of permanent citizens above 15 years (percentages) speaking a given language
+- ```20XX_demographicsLanguagesAbsolute.csv```: Absolute numbers per canton of permanent citizens above 15 years speaking a given language
+- ```20XX_demographicsLanguagesCantonRelative.csv```: Relative numbers per canton of permanent citizens above 15 years (percentages) speaking a given language
+- ```20XX_demographicsLanguages_CountryRelative.csv```: Relative numbers per canton of permanent citizens above 15 years (percentages) speaking a given language within the country 
 
 ### Metadata
 
@@ -14,7 +15,7 @@
 #### Dataset
 - **Title**: Langues principales selon les cantons
 - **Identifier**: je-f-01.08.01.02
-- **Publishing Date**: 24.01.2022
+- **Publishing Date**: 2022-01-24
 - **Periodicity**: 2010-2020
 - **Language**: FR, DE, IT
 - **Format**: XLSX
@@ -43,10 +44,10 @@
 - **Jurisdiction**: Switzerland
 
 #### Version
-- **Date of Modification**: 25.01.2021
+- **Date of Modification**: 2022-01-24
 
 #### Organization
-- **Original Data Source**: Structural Survey; Federal Population Census
+- **Original Data Source**: Structural Survey
 - **Publisher**: Federal Statistical Office
 - **Managed By**: Federal Statistical Office
 - **Contact Point**: https://www.bfs.admin.ch/bfs/en/home/services/contact.html
