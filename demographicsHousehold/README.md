@@ -2,8 +2,8 @@
 
 ### **Files**
 - *Note: only the last 5 years are being considerated for simplification and data relevance purposes!*
-- ```20XX_demographicsHousehold_Absolute.csv```: absolute numbers of households per canton
-- ```20XX_demographicsHousehold_CantonRelative.csv```: relative numbers of households (percentages) within the canton
+- ```20XX_demographicsHousehold_Absolute.csv```: Absolute numbers of households per canton
+- ```20XX_demographicsHousehold_CantonRelative.csv```: Relative numbers of households (percentages) within the canton
 
 ### Metadata
 
@@ -14,7 +14,7 @@
 #### Dataset
 - **Title**: Private households by canton and household size, 2010-2020
 - **Identifier**: cc-e-01.02.02.02
-- **Publishing Date**: 07.10.2021
+- **Publishing Date**: 2021-10-07
 - **Periodicity**: 2010-2020
 - **Language**: EN, FR, DE, IT
 - **Format**: XLSX
@@ -43,7 +43,7 @@
 - **Jurisdiction**: Switzerland
 
 #### Version
-- **Date of Modification**: 07.10.2021
+- **Date of Modification**: 2021-20-07
 
 #### Organization
 - **Original Data Source**: Population and Households Statistics (STATPOP)
