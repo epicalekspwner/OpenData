@@ -79,14 +79,14 @@
 - ```otherLanguages```: Number of permanent citizens above 15 years speaking other languages
 
 #### Confidence Intervals
-- ```german_IC```: confidence interval for German or Swiss-German
-- ```french_IC```: confidence interval for French or Waldensian Patois
-- ```italian_IC```: confidence interval for Italian or Ticino dialect/Graubünden Italian
-- ```romansh_IC```: confidence interval for Romansh
-- ```english_IC```: confidence interval for English
-- ```portuguese_IC```: confidence interval for Portuguese
-- ```bosnianCroatianMontenegrinSerbian_IC```: confidence interval for Bosnian, Croatian, Montenegrin or Serbian
-- ```albanian_IC```: confidence interval for Albanian 
-- ```spanish_IC```: confidence interval for Spanish
-- ```turkish_IC```: confidence interval for Turkish
-- ```otherLanguages_IC```: confidence interval for other languages
+- ```german_IC```: Confidence interval for German or Swiss-German
+- ```french_IC```: Confidence interval for French or Waldensian Patois
+- ```italian_IC```: Confidence interval for Italian or Ticino dialect/Graubünden Italian
+- ```romansh_IC```: Confidence interval for Romansh
+- ```english_IC```: Confidence interval for English
+- ```portuguese_IC```: Confidence interval for Portuguese
+- ```bosnianCroatianMontenegrinSerbian_IC```: Confidence interval for Bosnian, Croatian, Montenegrin or Serbian
+- ```albanian_IC```: Confidence interval for Albanian 
+- ```spanish_IC```: Confidence interval for Spanish
+- ```turkish_IC```: Confidence interval for Turkish
+- ```otherLanguages_IC```: Confidence interval for other languages
