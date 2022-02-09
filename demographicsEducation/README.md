@@ -2,9 +2,9 @@
 
 ### **Files**
 - *Note: only the last 5 years are being considerated for simplification and data relevance purposes!*
-- ```20XX_demographicsEducation_Absolute.csv```: absolute numbers of people with a given education level per canton
-- ```20XX_demographicsEducation_CantonRelative.csv```: relative numbers of people (percentages) with a given education level within the canton
-- ```20XX_demographicsEducation_CountryRelative.csv```: relative numbers of people (percentages) with a given education level within the country
+- ```20XX_demographicsEducation_Absolute.csv```: Absolute numbers of people with a given education level per canton
+- ```20XX_demographicsEducation_CantonRelative.csv```: Relative numbers of people (percentages) with a given education level within the canton
+- ```20XX_demographicsEducation_CountryRelative.csv```: Relative numbers of people (percentages) with a given education level within the country
 
 ### Metadata
 
