@@ -43,5 +43,5 @@ for i in dictDataFrames.keys():
     exportPathExist = os.path.exists(exportPath)
     if not exportPathExist:
         os.makedirs(exportPath)
-    exportFile = 'C:/GitHub/OpenDataCustomerAnalytics/demographicsHousehold/{0}_demographicsHousehold_CantonRelative.csv'.format(i)
+    exportFile = 'C:/GitHubTest/OpenDataCustomerAnalytics/demographicsHousehold/{0}_demographicsHousehold_CantonRelative.csv'.format(i)
     dictDataFrames[i].to_csv(exportFile, na_rep='NaN', index=False)
