@@ -2,9 +2,9 @@
 
 ### **Files**
 - *Note: only the last 5 years are being considerated for simplification and data relevance purposes!*
-- ```20XX_demographicsStructureAbsolute.csv```: absolute numbers of people per canton
-- ```20XX_demographicsStructureCantonRelative.csv```: relative numbers of people (percentages) within the canton
-- ```20XX_demographicsStructureCountryRelative.csv```: relative numbers of people (percentages) within the country
+- ```20XX_demographicsStructure_Absolute.csv```: Absolute numbers of people per canton
+- ```20XX_demographicsStructure_CantonRelative.csv```: Relative numbers of people (percentages) within the canton
+- ```20XX_demographicsStructure_CountryRelative.csv```: Relative numbers of people (percentages) within the country
 
 ### Metadata
 
@@ -15,7 +15,7 @@
 #### Dataset
 - **Title**: Structure of the permanent resident population by canton, 2010-2020
 - **Identifier**: je-e-01.02.03.04
-- **Publishing Date**: 01.09.2021
+- **Publishing Date**: 2021-09-01
 - **Periodicity**: 2010-2020
 - **Language**: EN, FR, DE, IT
 - **Format**: XLSX
@@ -40,7 +40,7 @@
 - **Jurisdiction**: Switzerland
 
 #### Version
-- **Date of Modification**: 01.09.2021
+- **Date of Modification**: 2021-09-01
 
 #### Organization
 - **Original Data Source**: Population and Households Statistics (STATPOP)
