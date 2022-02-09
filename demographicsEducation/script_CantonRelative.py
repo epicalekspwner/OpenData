@@ -19,7 +19,7 @@ for year in periodicity:
 # Get the Dictionary Keys to Access the URLs
 keys = list(dictURL.keys())
 
-# Create New Dictionary for Storing the DataFranes
+# Create New Dictionary for Storing the DataFrames
 dictDataFrames = {}
 
 # Accessing the Original Datasets Through URLs and Converting Them Into DataFrames
