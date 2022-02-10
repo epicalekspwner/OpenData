@@ -91,35 +91,42 @@
 
 ### Attributes
 
+#### Skill Levels Explanation:
+- Skill level 1: Tasks which involve complex problem-solving and decision-making, requiring an extensive amount of factual and theoretical knowledge in a specialised field
+- Skill level 2: Complex practical tasks which require an extensive amount of knowledge in a specialised field
+- Skill level 3: Practical tasks such as sales/care/data processing and administration/operating machinery and electronic devices/security/driving vehicles 
+- Skill level 4: Simple physical or manual tasks
+
+
 #### Categories
 - ```category```: Category of interest
-  - ```total```:
-  - ```managers```:
-  - ```professionals```:
-  - ```techniciansAndAssociateProfessionals```:
-  - ```clericalSupportWorkers```:
-  - ```serviceAndSalesWorkers```:
-  - ```skilledAgriculturalForestryAndFisheryWorkers```:
-  - ```craftAndRelatedTradesWorkers```:
-  - ```plantMachineOperatorsAndAssemblers```:
-  - ```elementaryOccupations```:
+  - ```total```: Median gross monthly income for all occupational groups
+  - ```managers```: Median gross monthly income for managers (skill level 4)
+  - ```professionals```: Median gross monthly income for professionals (skill level 4)
+  - ```techniciansAndAssociateProfessionals```: Median gross monthly income for technicians and associate professionals (skill level 3)
+  - ```clericalSupportWorkers```: Median gross monthly income for clerical support workers (skill level 2)
+  - ```serviceAndSalesWorkers```: Median gross monthly income for service and sales workers (skill level 2)
+  - ```skilledAgriculturalForestryAndFisheryWorkers```: Median gross monthly income for skilled agricultural, forestry and fishery workers (skill level 2)
+  - ```craftAndRelatedTradesWorkers```: Median gross monthly income for craft and related trades workers (skill level 2)
+  - ```plantMachineOperatorsAndAssemblers```: Median gross monthly income for plant machine operators and assemblers (skill level 2)
+  - ```elementaryOccupations```: Median gross monthly income for elementary occupations (skill level 1)
 
 #### Total
-- ```ageAllTotal```:
-- ```ageAllFemale```:
-- ```ageAllMale```:
+- ```ageAllTotal```: Median gross monthly income for people of all ages
+- ```ageAllFemale```: Median gross monthly income for females of all ages
+- ```ageAllMale```: Median gross monthly income for males of all ages
 
 #### 29 years and under
-- ```age29-Total```:
-- ```age29-Female```:
-- ```age29-Male```:
+- ```age29-Total```: Median gross monthly income for people aged 29 years and under
+- ```age29-Female```: Median gross monthly income for females aged 29 years and under
+- ```age29-Male```: Median gross monthly income for males aged 29 years and under
 
 #### 30 to 49 years
-- ```age30_49Total```:
-- ```age30_49Female```:
-- ```age30_49Male```:
+- ```age30_49Total```: Median gross monthly income for people aged 29 years and under
+- ```age30_49Female```: Median gross monthly income for females aged between 30 and 49 years
+- ```age30_49Male```: Median gross monthly income for males aged between 30 and 49 years
 
 #### 50 years and over
-- ```age50+Total```:
-- ```age50+Female```:
-- ```age50+Male```:
+- ```age50+Total```: Median gross monthly income for people aged 50 years and over
+- ```age50+Female```: Median gross monthly income for females aged 50 years and over
+- ```age50+Male```: Median gross monthly income for females aged 50 years and over 
