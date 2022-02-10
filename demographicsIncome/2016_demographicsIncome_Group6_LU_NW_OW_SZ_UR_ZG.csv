@@ -1,4 +1,4 @@
-category,ageAllTotal,ageAllWomen,ageAllMen,age29-Total,age29-Female,age29-Male,age30_49Total,age30_49Female,age30_49Male,age50+Total,age50+Female,age50+Male
+category,ageAllTotal,ageAllFemale,ageAllMale,age29-Total,age29-Female,age29-Male,age30_49Total,age30_49Female,age30_49Male,age50+Total,age50+Female,age50+Male
 total,6451,5890,6791,5073,4859,5199,6824,6388,7048,7168,6368,7675
 managers,9480,8005,10050,6300,6154,6418,9218,8275,9573,11239,8960,11667
 professionals,8456,7924,8878,6198,6231,6129,8505,8105,8790,9801,9238,10384
