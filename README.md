@@ -1,1 +1,1 @@
-![OpenDataBanner](https://raw.githubusercontent.com/epicalekspwner/miscellaneous/main/OpenDataBanner.svg)
+![OpenDataBanner](https://raw.githubusercontent.com/epicalekspwner/OpenDataCustomerAnalytics/main/repoResources/mainBanner.svg)
