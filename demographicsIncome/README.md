@@ -66,7 +66,7 @@
 - **Jurisdiction**: Switzerland
 
 #### Version
-- **Date of Upload**: 2020-04-21
+- **Date of Publication**: 2020-04-21
 - **Date of Modification**: 2020-04-21
 
 #### Organization
