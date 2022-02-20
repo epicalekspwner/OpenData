@@ -44,6 +44,7 @@
 - **Jurisdiction**: Switzerland
 
 #### Version
+- **Date of Publication**: 2022-01-24
 - **Date of Modification**: 2022-01-24
 
 #### Organization
