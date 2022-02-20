@@ -1,7 +1,7 @@
 ## geographicsGeometry/ZIP: Files, Metadata & Attributes
 
 ### **Files**
-- ```zipLocalities.csv```: Dataset of localities associated with their FSO-ids, postal codes, communes and cantons 
+- ```zipLocalities.csv```: Dataset of localities associated with their postal codes, communes, FSO numbers and cantons
 
 ### Metadata
 
