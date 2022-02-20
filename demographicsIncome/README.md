@@ -7,7 +7,7 @@
 ### Metadata
 
 #### Open Data Domain
-- **Domain Name**: Work and income
+- **Domain Name**: Work and Income
 - **Purpose of Use**: Statistical Data
 
 #### Dataset
