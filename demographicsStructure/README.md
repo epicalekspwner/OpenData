@@ -40,6 +40,7 @@
 - **Jurisdiction**: Switzerland
 
 #### Version
+- **Date of Publication**: 2021-09-01
 - **Date of Modification**: 2021-09-01
 
 #### Organization
