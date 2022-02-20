@@ -65,6 +65,10 @@
 - **Permissions**: Open use. Must provide the source. Use for commercial purposes requires permission of the data owner.
 - **Jurisdiction**: Switzerland
 
+#### Version
+- **Date of Upload**: 2020-04-21
+- **Date of Modification**: 2020-04-21
+
 #### Organization
 - **Original Data Source**: Swiss Earnings Structure Survey
 - **Publisher**: Federal Statistical Office
