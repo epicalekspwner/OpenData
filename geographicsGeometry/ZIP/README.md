@@ -1,7 +1,7 @@
 ## geographicsGeometry/ZIP: Files, Metadata & Attributes
 
 ### **Files**
-- ```PLZO_CSV_LV95.csv```: Dataset of localities associated with their FSO-ids, postal codes, communes and cantons 
+- ```zipLocalities.csv```: Dataset of localities associated with their FSO-ids, postal codes, communes and cantons 
 
 ### Metadata
 
@@ -76,12 +76,12 @@
 
 
 ### Attributes
-- ```Ortschaftsname```: Official name of the locality
-- ```PLZ```: Four-digit postal code (ZIP)
-- ```Zusatzziffer```: Additional digits providing ZIP6 when combined with the the PLZ attribute
-- ```Gemeindename```: Name of the main municipality of the locality (not to be used as an identifier)
-- ```BFS-Nr```: Number of the main municipality of the locality (not to be used as an identifier)
-- ```Kantonskürzel```: Abbreviation of the canton in which the locality is predominantly located
-- ```E```: East coordinate indicating the position of any point within the perimeter of the locality or postcode
-- ```N```: North coordinate indicating the position of any point within the perimeter of the locality or postcode
-- ```Sprache```: Abbreviation of the locality official language
+- ```locality```: Official name of the locality
+- ```zip```: Four-digit postal code (ZIP)
+- ```additionalDigit```: Additional digits providing ZIP6 when combined with the the PLZ attribute
+- ```commune```: Name of the main commune of the locality (not to be used as an identifier)
+- ```numberFSO```: Number of the main commune of the locality (not to be used as an identifier)
+- ```canton```: Abbreviation of the canton in which the locality is predominantly located
+- ```e```: East coordinate indicating the position of any point within the perimeter of the locality or postcode
+- ```n```: North coordinate indicating the position of any point within the perimeter of the locality or postcode
+- ```language```: Abbreviation of the locality official language
