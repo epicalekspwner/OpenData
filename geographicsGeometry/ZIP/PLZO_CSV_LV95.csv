@@ -1,4 +1,4 @@
-﻿Ortschaftsname,PLZ,Zusatzziffer,Gemeindename,BFS-Nr,Kantonskürzel,E,N,Sprache
+﻿locality,zip,additionalDigit,commune,numberFSO,canton,e,n,Sprache
 Aeugst am Albis,8914,0,Aeugst am Albis,1,ZH,2679435.8170000017,1235653.1849999987,de
 Aeugstertal,8914,2,Aeugst am Albis,1,ZH,2679815.4750000015,1237410.2149999999,de
 Zwillikon,8909,0,Affoltern am Albis,2,ZH,2675104.5190000013,1237890.4880000018,de
