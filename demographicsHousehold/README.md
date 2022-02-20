@@ -44,7 +44,8 @@
 - **Jurisdiction**: Switzerland
 
 #### Version
-- **Date of Modification**: 2021-20-07
+- **Date of Publication**: 2021-10-07
+- **Date of Modification**: 2021-10-07
 
 #### Organization
 - **Original Data Source**: Population and Households Statistics (STATPOP)
