@@ -1,4 +1,4 @@
-region,total,1personHousehold,2personHousehold,3personHousehold,4personHousehold,5personHousehold,6+personHousehold,averageSizeHousehold
+region,total,onePersonHousehold,twoPersonHousehold,threePersonHousehold,fourPersonHousehold,fivePersonHousehold,sixMorePersonHousehold,averageSizeHousehold
 AG,292608,0.3187,0.3538,0.1328,0.1345,0.0439,0.0163,2.29
 AI,6463,0.3033,0.3277,0.1235,0.1362,0.0801,0.0292,2.46
 AR,23767,0.336,0.3446,0.1213,0.124,0.0519,0.0223,2.29
