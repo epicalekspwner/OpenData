@@ -1,4 +1,4 @@
-region,total,age0_19,age20_64,age65+,sexMale,sexFemale,citizenSwiss,citizenForeign,maritalSingle,maritalMarried,maritalWidowed,maritalDivorced,maritalUnmarried,martialRegistredPartnership,maritalDisolvedPartnership,typoUrbanCore,typoUrbanCoreInfluence,typoNoUrbanCoreInfluence
+region,total,age0_19,age20_64,age65plus,sexMale,sexFemale,citizenSwiss,citizenForeign,maritalSingle,maritalMarried,maritalWidowed,maritalDivorced,maritalUnmarried,martialRegistredPartnership,maritalDisolvedPartnership,typoUrbanCore,typoUrbanCoreInfluence,typoNoUrbanCoreInfluence
 AG,670988,0.2026,0.6239,0.1735,0.5025,0.4975,0.7507,0.2493,0.4248,0.4493,0.045,0.0792,0.0,0.0014,0.0002,0.5455,0.3049,0.1495
 AI,16105,0.216,0.5969,0.1871,0.5147,0.4853,0.8861,0.1139,0.4545,0.4364,0.0531,0.0551,0.0001,0.0006,0.0002,0.0,0.0,1.0
 AR,55178,0.2021,0.606,0.1919,0.5053,0.4947,0.8369,0.1631,0.425,0.4374,0.0515,0.0845,0.0,0.0014,0.0001,0.286,0.4799,0.2341
