@@ -13,7 +13,7 @@
 - **Title**: Répertoire officiel des localités
 - **Identifier**: PLZO_CSV_LV95
 - **Publishing Date**: 2022-02-01
-- **Periodicity**: n/a
+- **Periodicity**: N/A
 - **Language**: DE
 - **Format**: CSV
 - **Size**: 308 Ko
@@ -21,38 +21,39 @@
 #### Dataset Attributes
 - **Names**: See below
 - **Values**:
-  - Locality: Textual
-  - ZIP: Numerical
-  - Additional digit: 
-  - FSO number: Numerical
-  - Canton: Textual
-  - E: Numerical
-  - N: Numerical
-  - Language: Textual
+  - ```Ortschaftsname```: Textual
+  - ```PLZ```: Numerical
+  - ```Zusatzziffer```: Numerical
+  - ```Gemeindename```: Numerical
+  - ```Kantonskürzel```: Textual
+  - ```E```: Numerical
+  - ```N```: Numerical
+  - ```Sprache```: Textual
 - **Types**:
-  - Locality: String
-  - ZIP: Discrete
-  - Additional digit: Discrete
-  - FSO number: Discrete
-  - Canton: String
-  - E: Continuous
-  - N: Continuous
-  - Language: String
+  - ```Ortschaftsname```: String
+  - ```PLZ```: Integer
+  - ```Zusatzziffer```: Integer
+  - ```Gemeindename```: Integer
+  - ```Kantonskürzel```: String
+  - ```E```: Float
+  - ```N```: Float
+  - ```Sprache```: String
 - **Units**:
-  - Locality: n/a
-  - ZIP: n/a
-  - Additional digit: n/a 
-  - FSO number: n/a 
-  - Canton: n/a
-  - E: n/a
-  - N: n/a
-  - Language: n/a
+  - ```Ortschaftsname```: N/A
+  - ```PLZ```: N/A
+  - ```Zusatzziffer```: N/A 
+  - ```Gemeindename```: N/A
+  - ```Kantonskürzel```: N/A 
+  - ```BFS-Nr```: N/A
+  - ```E```: Coordinate E LV95
+  - ```N```: Coordinate N LV95
+  - ```Sprache```: N/A
 
 #### Level of Detail
 - **Spatial Coverage**: Switzerland
-- **Temporal Coverage**: n/a
+- **Temporal Coverage**: N/A
 - **Spacial Granularity**: Locality
-- **Temporal Granularity**: n/a
+- **Temporal Granularity**: N/A
 
 #### License
 - **License Name**: OPEN-BY
@@ -73,7 +74,6 @@
 #### Distribution
 - **Access URL**: https://www.cadastre.ch/fr/services/service/registry/plz.html
 - **Download URL**: https://data.geo.admin.ch/ch.swisstopo-vd.ortschaftenverzeichnis_plz/PLZO_CSV_LV95.zip
-
 
 ### Attributes
 - ```Ortschaftsname```: Official name of the locality
