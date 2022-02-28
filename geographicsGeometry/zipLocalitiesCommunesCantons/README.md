@@ -81,8 +81,8 @@
 - ```Ortschaftsname```: Official name of the locality
 - ```PLZ```: Four-digit postal code (ZIP)
 - ```Zusatzziffer```: Additional digits providing ZIP6 when combined with the the PLZ attribute
-- ```Gemeindename```: Name of the main commune of the locality (not to be used as an identifier)
-- ```BFS-Nr```: Number of the main commune of the locality (not to be used as an identifier)
+- ```Gemeindename```: Name of the main commune of the locality
+- ```BFS-Nr```: Number of the main commune of the locality
 - ```Kantonskürzel```: Abbreviation of the canton in which the locality is predominantly located
 - ```E```: East coordinate indicating the position of any point within the perimeter of the locality or postcode
 - ```N```: North coordinate indicating the position of any point within the perimeter of the locality or postcode
