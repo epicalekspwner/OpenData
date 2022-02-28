@@ -1,4 +1,4 @@
-## geographicsGeometry/ZIP: Files, Metadata & Attributes
+## geographicsGeometry/zipLocalitiesCommunesCantons: Files, Metadata & Attributes
 
 ### **Files**
 - ```PLZO_CSV_LV95.csv```: Dataset of localities associated with their postal codes, communes, FSO numbers and cantons
@@ -25,6 +25,7 @@
   - ```PLZ```: Numerical
   - ```Zusatzziffer```: Numerical
   - ```Gemeindename```: Numerical
+  - ```BFS-Nr```: Numerical
   - ```Kantonskürzel```: Textual
   - ```E```: Numerical
   - ```N```: Numerical
@@ -34,6 +35,7 @@
   - ```PLZ```: Integer
   - ```Zusatzziffer```: Integer
   - ```Gemeindename```: Integer
+  - ```BFS-Nr```: Integer
   - ```Kantonskürzel```: String
   - ```E```: Float
   - ```N```: Float
@@ -43,8 +45,8 @@
   - ```PLZ```: N/A
   - ```Zusatzziffer```: N/A 
   - ```Gemeindename```: N/A
-  - ```Kantonskürzel```: N/A 
   - ```BFS-Nr```: N/A
+  - ```Kantonskürzel```: N/A
   - ```E```: Coordinate E LV95
   - ```N```: Coordinate N LV95
   - ```Sprache```: N/A
