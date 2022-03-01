@@ -4,8 +4,8 @@
 - ```fig-equids-canton.csv```: Evolution of the number of equids per canton
 
 #### Open Data Domain
-- **Domain Name**:
-- **Purpose of Use**:
+- **Domain Name**: Agriculture, Forestry
+- **Purpose of Use**: Statistical Data
 
 #### Dataset
 - **Title**: Number of registered and living equids by canton
@@ -41,7 +41,7 @@
 - **Jurisdiction**: Switzerland
 
 #### Version
-- **Date of Publication**: 2022-02-21
+- **Date of Publication**: 2022-01-31
 - **Date of Modification**: 2022-02-21
 
 #### Organization
