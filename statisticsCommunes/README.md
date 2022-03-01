@@ -6,7 +6,7 @@
 ### Metadata
 
 #### Open Data Domain
-- **Domain Name**: Regional Statistics
+- **Domain Name**: Sustainable development, regional and international disparities; Statistical basis and overviews
 - **Purpose of Use**: Statistical Data
 
 #### Dataset
