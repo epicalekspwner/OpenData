@@ -2,6 +2,7 @@
 
 ### **Files**
 - ```ts-x-21.03.02.csv```: Dataset containing key data of all cantons
+- ```ts-x-21.03.02-APPENDIX.csv```: Description of attributes 
 
 ### Metadata
 
