@@ -43,7 +43,7 @@
 #### Level of Detail
 - **Spatial Coverage**: Switzerland
 - **Temporal Coverage**: 2004-2020
-- **Spacial Granularity**: Canton
+- **Spacial Granularity**: Commune
 - **Temporal Granularity**: N/A
 
 #### License
