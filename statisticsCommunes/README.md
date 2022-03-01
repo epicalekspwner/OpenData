@@ -74,52 +74,52 @@
 - ```REGION```: Commune name
 - ```INDICATORS```:
   - **Population**:
-    - ```Ind_01_01```: Population - Residents
-    - ```Ind_01_02```: Population - Change in %
-    - ```Ind_01_03```: Population - Population density
-    - ```Ind_01_04```: Population - Share of age group 0-19 years
-    - ```Ind_01_05```: Population - Share of age group 20-64 years
-    - ```Ind_01_06```: Population - Share of age group 65+ years
-    - ```Ind_01_08```: Population - Foreign nationals
-    - ```Ind_01_09```: Population - Crude marriage rate
-    - ```Ind_01_10```: Population - Crude divorce rate
-    - ```Ind_01_11```: Population - Crude birth rate
-    - ```Ind_01_12```: Population - Crude mortality rate
-    - ```Ind_01_13```: Population - Private households
-    - ```Ind_01_14```: Population - Size of households
+    - ```Ind_01_01```: Residents
+    - ```Ind_01_02```: Change in %
+    - ```Ind_01_03```: Population density
+    - ```Ind_01_04```: Share of age group 0-19 years
+    - ```Ind_01_05```: Share of age group 20-64 years
+    - ```Ind_01_06```: Share of age group 65+ years
+    - ```Ind_01_08```: Foreign nationals
+    - ```Ind_01_09```: Crude marriage rate
+    - ```Ind_01_10```: Crude divorce rate
+    - ```Ind_01_11```: Crude birth rate
+    - ```Ind_01_12```: Crude mortality rate
+    - ```Ind_01_13```: Private households
+    - ```Ind_01_14```: Size of households
   - **Area**:
-    - ```Ind_04_01```: Area - Area, total
-    - ```Ind_04_02```: Area - Settlement and urban area
-    - ```Ind_04_03```: Area - Settlement and urban area, change
-    - ```Ind_04_04```: Area - Agricultural area 
-    - ```Ind_04_05```: Area - Agricultural area, change
-    - ```Ind_04_06```: Area - Wooded area
-    - ```Ind_04_07```: Area - Unproductive area
+    - ```Ind_04_01```: Area, total
+    - ```Ind_04_02```: Settlement and urban area
+    - ```Ind_04_03```: Settlement and urban area, change
+    - ```Ind_04_04```: Agricultural area 
+    - ```Ind_04_05```: Agricultural area, change
+    - ```Ind_04_06```: Wooded area
+    - ```Ind_04_07```: Unproductive area
   - **Economy**:
-    - ```Ind_06_03```: Economy - Employed, total
-    - ```Ind_06_04```: Economy - Employed, primary sector
-    - ```Ind_06_05```: Economy - Employed, secondary sector
-    - ```Ind_06_06```: Economy - Employed, tertiary sector
-    - ```Ind_06_07```: Economy - Business establishments, total
-    - ```Ind_06_08```: Economy - Business establishments, primary sector
-    - ```Ind_06_09```: Economy - Business establishments, secondary sector
-    - ```Ind_06_10```: Economy - Business establishments, tertiary sector
+    - ```Ind_06_03```: Employed, total
+    - ```Ind_06_04```: Employed, primary sector
+    - ```Ind_06_05```: Employed, secondary sector
+    - ```Ind_06_06```: Employed, tertiary sector
+    - ```Ind_06_07```: Business establishments, total
+    - ```Ind_06_08```: Business establishments, primary sector
+    - ```Ind_06_09```: Business establishments, secondary sector
+    - ```Ind_06_10```: Business establishments, tertiary sector
   - **Construction and housing**:
-    - ```Ind_08_01```: Construction and housing - Dwelling vacancy rate
-    - ```Ind_08_04```: Construction and housing - New housing units
+    - ```Ind_08_01```: Dwelling vacancy rate
+    - ```Ind_08_04```: New housing units
   - **Social security**:
-    - ```Ind_11_01```: Social security - Social assistance rate
+    - ```Ind_11_01```: Social assistance rate
   - **Voter shares of selected parties (National Council elections)**:
-    - ```Ind_14_01```: Voter shares of selected parties (National Council elections) - FDP/PLR
-    - ```Ind_14_02```: Voter shares of selected parties (National Council elections) - CVP
-    - ```Ind_14_03```: Voter shares of selected parties (National Council elections) - SP
-    - ```Ind_14_04```: Voter shares of selected parties (National Council elections) - SVP
-    - ```Ind_14_05```: Voter shares of selected parties (National Council elections) - EVP/CSP
-    - ```Ind_14_06```: Voter shares of selected parties (National Council elections) - GLP
-    - ```Ind_14_07```: Voter shares of selected parties (National Council elections) - BDP
-    - ```Ind_14_08```: Voter shares of selected parties (National Council elections) - PdA/Sol.
-    - ```Ind_14_09```: Voter shares of selected parties (National Council elections) - GPS
-    - ```Ind_14_10```: Voter shares of selected parties (National Council elections) - Small right-wing parties 
+    - ```Ind_14_01```: FDP/PLR
+    - ```Ind_14_02```: CVP
+    - ```Ind_14_03```: SP
+    - ```Ind_14_04```: SVP
+    - ```Ind_14_05```: EVP/CSP
+    - ```Ind_14_06```: GLP
+    - ```Ind_14_07```: BDP
+    - ```Ind_14_08```: PdA/Sol.
+    - ```Ind_14_09```: GPS
+    - ```Ind_14_10```: Small right-wing parties 
 - ```UNIT_MES```:
   - ```UM_2```: Percentage
   - ```UM_3```: Inhabitants per km² of total area
