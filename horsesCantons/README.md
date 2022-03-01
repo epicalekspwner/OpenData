@@ -10,7 +10,7 @@
 #### Dataset
 - **Title**: Number of registered and living equids by canton
 - **Identifier**: fig-equids-CH@identitas
-- **Publishing Date**: 2022-02-21
+- **Publishing Date**: 2022-01-31
 - **Periodicity**: 2016-2022
 - **Language**: EN
 - **Format**: CSV
