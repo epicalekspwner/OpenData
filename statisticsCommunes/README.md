@@ -2,6 +2,7 @@
 
 ### **Files**
 - ```ts-x-21.03.01.csv```: Dataset containing key data of all communes
+- ```ts-x-21.03.01-APPENDIX.csv```: Description of attributes
 
 ### Metadata
 
