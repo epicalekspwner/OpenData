@@ -21,12 +21,18 @@
 - **Values**:
   - ```year```: Numerical
   - **Canton**: Numerical
+  - ```unknown```: Numerical
+  - ```CH```: Numerical
 - **Types**:
   - ```year```: Integer
   - **Canton**: Integer
+  - ```unknonw```: Integer
+  - ```CH```: Integer
 - **Units**:
   - ```year```: N/A
   - **Canton**: Number of horses
+  - ```unknown```: Number of horses
+  - ```CH```: Number of horses
 
 #### Level of Detail
 - **Spatial Coverage**: Switzerland
