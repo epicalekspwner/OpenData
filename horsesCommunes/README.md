@@ -1,4 +1,4 @@
-## horsesCommunes: Files, Metadata & Attributes
+## equidsCommunes: Files, Metadata & Attributes
 
 ### **Files**
 - ```map-equids-commune.csv```: Number of equids per commune
