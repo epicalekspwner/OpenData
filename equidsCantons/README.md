@@ -1,4 +1,4 @@
-## horsesCantons: Files, Metadata & Attributes
+## equidsCantons: Files, Metadata & Attributes
 
 ### **Files**
 - ```fig-equids-canton.csv```: Evolution of the number of equids per canton
