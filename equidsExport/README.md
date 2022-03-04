@@ -1,7 +1,7 @@
 ## equidsExport: Files, Metadata & Attributes
 
 ### **Files**
-- ```fig-equids-exportCanton.csv```: Evolution of the number of exported equids per canton
+- ```fig-equids-exportCanton.csv```: Evolution of the number of exported equids per region
 
 #### Open Data Domain
 - **Domain Name**: Agriculture, Forestry
