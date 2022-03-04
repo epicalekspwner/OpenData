@@ -74,10 +74,10 @@
 
 ### Attributes
 - ```Region```: Considered region [AG, AI, AR, BE, BL, BS, FR, GE, GL, GR, JU, LU, NE, NW, OW, SG, SH, SO, SZ, TG, TI, UR, VD, VS, ZG, ZH, CH]
-- ```2016```: Number of exported equids by the region in 2016
-- ```2017```: Number of exported equids by the region in 2017
-- ```2018```: Number of exported equids by the region in 2018
-- ```2019```: Number of exported equids by the region in 2019
-- ```2020```: Number of exported equids by the region in 2020
-- ```2021```: Number of exported equids by the region in 2021
-- ```2022```: Number of exported equids by the region in 2022
+- ```2016```: Number of exported equids by region in 2016
+- ```2017```: Number of exported equids by region in 2017
+- ```2018```: Number of exported equids by region in 2018
+- ```2019```: Number of exported equids by region in 2019
+- ```2020```: Number of exported equids by region in 2020
+- ```2021```: Number of exported equids by region in 2021
+- ```2022```: Number of exported equids by region in 2022
