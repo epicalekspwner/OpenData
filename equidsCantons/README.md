@@ -19,14 +19,32 @@
 #### Dataset Attributes
 - **Names**: See below
 - **Values**:
-  - ```year```: Numerical
-  - **Canton**: Numerical
+  - ```Region```: Textual
+  - ```2016```: Numerical
+  - ```2017```: Numerical
+  - ```2018```: Numerical
+  - ```2019```: Numerical
+  - ```2020```: Numerical
+  - ```2021```: Numerical
+  - ```2022```: Numerical
 - **Types**:
-  - ```year```: Integer
-  - **Canton**: Integer
+  - ```Region```: String
+  - ```2016```: Integer
+  - ```2017```: Integer
+  - ```2018```: Integer
+  - ```2019```: Integer
+  - ```2020```: Integer
+  - ```2021```: Integer
+  - ```2022```: Integer
 - **Units**:
-  - ```year```: N/A
-  - **Canton**: Number of horses
+  - ```Region```: N/A
+  - ```2016```: Number of equids in 2016
+  - ```2017```: Number of equids in 2017
+  - ```2018```: Number of equids in 2018
+  - ```2019```: Number of equids in 2019
+  - ```2020```: Number of equids in 2020
+  - ```2021```: Number of equids in 2021
+  - ```2022```: Number of equids in 2022
 
 #### Level of Detail
 - **Spatial Coverage**: Switzerland
@@ -56,7 +74,11 @@
 
 ### Attributes
 
-- ```year```: Considered year
-- **Canton**: Number of living equids in the considerated canton
-- ```unknown```: Number of living equids with unknown localisation
-- ```CH```: Number of living equids in Switzerland
+- ```Region```: Considered region [AG, AI, AR, BE, BL, BS, FR, GE, GL, GR, JU, LU, NE, NW, OW, SG, SH, SO, SZ, TG, TI, UR, VD, VS, ZG, ZH, CH]
+- ```2016```: Number of equids by region in 2016
+- ```2017```: Number of equids by region in 2017
+- ```2018```: Number of equids by region in 2018
+- ```2019```: Number of equids by region in 2019
+- ```2020```: Number of equids by region in 2020
+- ```2021```: Number of equids by region in 2021
+- ```2022```: Number of equids by region in 2022
