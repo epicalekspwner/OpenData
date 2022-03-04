@@ -19,17 +19,32 @@
 #### Dataset Attributes
 - **Names**: See below
 - **Values**:
-  - ```year```: Numerical
-  - **Canton**: Numerical
-  - ```CH```: Numerical
+  - ```Region```: Textual
+  - ```2016```: Numerical
+  - ```2017```: Numerical
+  - ```2018```: Numerical
+  - ```2019```: Numerical
+  - ```2020```: Numerical
+  - ```2021```: Numerical
+  - ```2022```: Numerical
 - **Types**:
-  - ```year```: Integer
-  - **Canton**: Integer
-  - ```CH```: Integer
+  - ```Region```: String
+  - ```2016```: Integer
+  - ```2017```: Integer
+  - ```2018```: Integer
+  - ```2019```: Integer
+  - ```2020```: Integer
+  - ```2021```: Integer
+  - ```2022```: Integer
 - **Units**:
-  - ```year```: N/A
-  - **Canton**: Number of exported equids
-  - ```CH```: Number of exported equids
+  - ```Region```: N/A
+  - ```2016```: Number of exported equids in 2016
+  - ```2017```: Number of exported equids in 2017
+  - ```2018```: Number of exported equids in 2018
+  - ```2019```: Number of exported equids in 2019
+  - ```2020```: Number of exported equids in 2020
+  - ```2021```: Number of exported equids in 2021
+  - ```2022```: Number of exported equids in 2022
 
 #### Level of Detail
 - **Spatial Coverage**: Switzerland
@@ -58,6 +73,11 @@
 - **Download URL**: https://tierstatistik.identitas.ch/data/fig-equids-exportCanton.csv
 
 ### Attributes
-- ```Year```: Considered year
-- **Canton**: Number of exported equids in the considerated canton
-- ```CH```: Number of exported equids in Switzerland
+- ```Region```: Considered year
+- ```2016```: Number of exported equids by the region in 2016
+- ```2017```: Number of exported equids by the region in 2017
+- ```2018```: Number of exported equids by the region in 2018
+- ```2019```: Number of exported equids by the region in 2019
+- ```2020```: Number of exported equids by the region in 2020
+- ```2021```: Number of exported equids by the region in 2021
+- ```2022```: Number of exported equids by the region in 2022
