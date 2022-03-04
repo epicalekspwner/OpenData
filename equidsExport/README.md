@@ -73,7 +73,7 @@
 - **Download URL**: https://tierstatistik.identitas.ch/data/fig-equids-exportCanton.csv
 
 ### Attributes
-- ```Region```: Considered year
+- ```Region```: Considered region [AG, AI, AR, BE, BL, BS, FR, GE, GL, GR, JU, LU, NE, NW, OW, SG, SH, SO, SZ, TG, TI, UR, VD, VS, ZG, ZH, CH]
 - ```2016```: Number of exported equids by the region in 2016
 - ```2017```: Number of exported equids by the region in 2017
 - ```2018```: Number of exported equids by the region in 2018
