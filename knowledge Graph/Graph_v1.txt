@@ -1,0 +1,303 @@
+// ################################
+// ####### Neo4j - Graph V1 #######
+// ################################
+
+// --------------------------
+// ------- Clear Data -------
+// --------------------------
+
+// Retrieve all non-standalone nodes (n) with a relation (r) & delete them
+MATCH (n)-[r]->() DELETE n, r
+
+// Retrieve all standalone nodes (n) & delete them
+MATCH (n) DELETE (n)
+
+// ----------------------------
+// ------- Create Nodes -------
+// ----------------------------
+
+// Create node for each canton with its FSO-id
+LOAD CSV WITH HEADERS FROM 'https://raw.githubusercontent.com/epicalekspwner/OpenDataCustomerAnalytics/main/geographicsGeometry/localitiesCommunesDistrictsCantons/be-t-00.04-agv-01_KT.csv' AS CantonFSO
+CREATE (:canton{
+	canton:CantonFSO.GDEKT, 
+	id:CantonFSO.KTNR
+});
+
+// Import '2020_demographicsStructure_Absolute.csv'
+LOAD CSV WITH HEADERS FROM 'https://raw.githubusercontent.com/epicalekspwner/OpenDataCustomerAnalytics/main/demographicsStructure/2020_demographicsStructure_Absolute.csv' AS demoStrAbs20csv 
+CREATE (:demoStrAbs20{
+	typeStat:'demoStrAbs20',
+	region:demoStrAbs20csv.region,
+	total:demoStrAbs20csv.total,
+	age0_19:demoStrAbs20csv.age0_19,
+	age20_64:demoStrAbs20csv.age20_64,
+	age65plus:demoStrAbs20csv.age65plus,
+	sexMale:demoStrAbs20csv.sexMale,
+	sexFemale:demoStrAbs20csv.sexFemale,
+	citizenSwiss:demoStrAbs20csv.citizenSwiss,
+	citizenForeign:demoStrAbs20csv.citizenForeign,
+	maritalSingle:demoStrAbs20csv.maritalSingle,
+	maritalMarried:demoStrAbs20csv.maritalMarried,
+	maritalWidowed:demoStrAbs20csv.maritalWidowed,
+	maritalDivorced:demoStrAbs20csv.maritalDivorced,
+	maritalUnmarried:demoStrAbs20csv.maritalUnmarried,
+	martialRegistredPartnership:demoStrAbs20csv.martialRegistredPartnership,
+	maritalDisolvedPartnership:demoStrAbs20csv.maritalDisolvedPartnership,
+	typoUrbanCore:demoStrAbs20csv.typoUrbanCore,
+	typoUrbanCoreInfluence:demoStrAbs20csv.typoUrbanCoreInfluence,
+	typoNoUrbanCoreInfluence:demoStrAbs20csv.typoNoUrbanCoreInfluence
+});
+
+// Import '2020_demographicsLanguages_Absolute.csv'
+LOAD CSV WITH HEADERS FROM 'https://raw.githubusercontent.com/epicalekspwner/OpenDataCustomerAnalytics/main/demographicsLanguages/2020_demographicsLanguages_Absolute.csv' AS demoLangAbs20csv
+CREATE (:demoLangAbs20{
+	typeStat:'demoLangAbs20',
+	region:demoLangAbs20csv.region,
+	total:demoLangAbs20csv.total,
+	german:demoLangAbs20csv.german,
+	german_IC:demoLangAbs20csv.german_IC,
+	french:demoLangAbs20csv.french,
+	french_IC:demoLangAbs20csv.french_IC,
+	italian:demoLangAbs20csv.italian,
+	italian_IC:demoLangAbs20csv.italian_IC,
+	romansh:demoLangAbs20csv.romansh,
+	romansh_IC:demoLangAbs20csv.romansh_IC,
+	english:demoLangAbs20csv.english,
+	english_IC:demoLangAbs20csv.english_IC,
+	portuguese:demoLangAbs20csv.portuguese,
+	portuguese_IC:demoLangAbs20csv.portuguese_IC,
+	bosnianCroatianMontenegrinSerbian:demoLangAbs20csv.bosnianCroatianMontenegrinSerbian,
+	bosnianCroatianMontenegrinSerbian_IC:demoLangAbs20csv.bosnianCroatianMontenegrinSerbian_IC,
+	albanian:demoLangAbs20csv.albanian,
+	albanian_IC:demoLangAbs20csv.albanian_IC,
+	spanish:demoLangAbs20csv.spanish,
+	spanish_IC:demoLangAbs20csv.spanish_IC,
+	turkish:demoLangAbs20csv.turkish,
+	turkish_IC:demoLangAbs20csv.turkish_IC,
+	otherLanguages:demoLangAbs20csv.otherLanguages,
+	otherLanguages_IC:demoLangAbs20csv.otherLanguages_IC
+});
+	
+// Import '2020_demographicsHousehold_Absolute.csv'
+LOAD CSV WITH HEADERS FROM 'https://raw.githubusercontent.com/epicalekspwner/OpenDataCustomerAnalytics/main/demographicsHousehold/2020_demographicsHousehold_Absolute.csv' AS demoHouseAbs20csv
+CREATE (:demoHouseAbs20{
+	typeStat:'demoHouseAbs20',
+	region:demoHouseAbs20csv.region,
+	total:demoHouseAbs20csv.total,
+	onePersonHousehold:demoHouseAbs20csv.onePersonHousehold,
+	twoPersonHousehold:demoHouseAbs20csv.twoPersonHousehold,
+	threePersonHousehold:demoHouseAbs20csv.threePersonHousehold,
+	fourPersonHousehold:demoHouseAbs20csv.fourPersonHousehold,
+	fivePersonHousehold:demoHouseAbs20csv.fivePersonHousehold,
+	sixMorePersonHousehold:demoHouseAbs20csv.sixMorePersonHousehold,
+	averageSizeHousehold:demoHouseAbs20csv.averageSizeHousehold
+});
+
+// Import '2020_demographicsEducation_Absolute.csv'
+LOAD CSV WITH HEADERS FROM 'https://raw.githubusercontent.com/epicalekspwner/OpenDataCustomerAnalytics/main/demographicsEducation/2020_demographicsEducation_Absolute.csv' AS demoEduAbs20csv
+CREATE (:demoEduAbs20{
+	typeStat:'demoEduAbs20',
+	region:demoEduAbs20csv.region,
+	total:demoEduAbs20csv.total,
+	total_IC:demoEduAbs20csv.total_IC,
+	withoutPostCompulsoryEducation:demoEduAbs20csv.withoutPostCompulsoryEducation,
+	withoutPostCompulsoryEducation_IC:demoEduAbs20csv.withoutPostCompulsoryEducation_IC,
+	secondLevel2ProfessionalTraining:demoEduAbs20csv.secondLevel2ProfessionalTraining,
+	secondLevel2ProfessionalTraining_IC:demoEduAbs20csv.secondLevel2ProfessionalTraining_IC,
+	secondLevel2GeneralTraining:demoEduAbs20csv.secondLevel2GeneralTraining,
+	secondLevel2GeneralTraining_IC:demoEduAbs20csv.secondLevel2GeneralTraining_IC,
+	thirdLevelHigherProfessionalTraining:demoEduAbs20csv.thirdLevelHigherProfessionalTraining,
+	thirdLevelHigherProfessionalTraining_IC:demoEduAbs20csv.thirdLevelHigherProfessionalTraining_IC,
+	thirdLevelUniversities:demoEduAbs20csv.thirdLevelUniversities,
+	thirdLevelUniversities_IC:demoEduAbs20csv.thirdLevelUniversities_IC
+});
+
+// Import 'groupCorrespondence.csv'
+LOAD CSV WITH HEADERS FROM 'https://raw.githubusercontent.com/epicalekspwner/OpenDataCustomerAnalytics/main/demographicsIncome/groupCorrespondence.csv' AS demoIncomeGroupcsv
+CREATE (:demoIncomeGroup{
+	typeStat:'Income2018',
+    canton_id:demoIncomeGroupcsv.canton_id,
+    canton:demoIncomeGroupcsv.canton,
+    group_id:demoIncomeGroupcsv.group_id
+});
+
+// Import 'Income_Group1_GE_VD_VS.csv'
+LOAD CSV WITH HEADERS FROM 'https://raw.githubusercontent.com/epicalekspwner/OpenDataCustomerAnalytics/main/demographicsIncome/2018_demographicsIncome_Group1_GE_VD_VS.csv' AS demoIncomeGrOne18csv
+CREATE (:demoIncome18{
+	typeStat:'demoIncomeGrOne18',
+	group:'1',
+	category:demoIncomeGrOne18csv.category,
+	ageAllTotal:demoIncomeGrOne18csv.ageAllTotal,
+	ageAllFemale:demoIncomeGrOne18csv.ageAllFemale,
+	ageAllMale:demoIncomeGrOne18csv.ageAllMale,
+	age29minusTotal:demoIncomeGrOne18csv.age29minusTotal,
+	age29minusFemale:demoIncomeGrOne18csv.age29minusFemale,
+	age29minusMale:demoIncomeGrOne18csv.age29minusMale,
+	age30_49Total:demoIncomeGrOne18csv.age30_49Total,
+	age30_49Female:demoIncomeGrOne18csv.age30_49Female,
+	age30_49Male:demoIncomeGrOne18csv.age30_49Male,
+	age50plusTotal:demoIncomeGrOne18csv.age50plusTotal,
+	age50plusFemale:demoIncomeGrOne18csv.age50plusFemale,
+	age50plusMale:demoIncomeGrOne18csv.age50plusMale
+});
+
+// Import 'Income_Group2_BE_FR_JU_NE_SO.csv'
+LOAD CSV WITH HEADERS FROM 'https://raw.githubusercontent.com/epicalekspwner/OpenDataCustomerAnalytics/main/demographicsIncome/2018_demographicsIncome_Group2_BE_FR_JU_NE_SO.csv' AS demoIncomeGrTwo18csv
+CREATE (:demoIncome18{
+	typeStat:'demoIncomeGrTwo18',
+	group:'2',
+	category:demoIncomeGrTwo18csv.category,
+	ageAllTotal:demoIncomeGrTwo18csv.ageAllTotal,
+	ageAllFemale:demoIncomeGrTwo18csv.ageAllFemale,
+	ageAllMale:demoIncomeGrTwo18csv.ageAllMale,
+	age29minusTotal:demoIncomeGrTwo18csv.age29minusTotal,
+	age29minusFemale:demoIncomeGrTwo18csv.age29minusFemale,
+	age29minusMale:demoIncomeGrTwo18csv.age29minusMale,
+	age30_49Total:demoIncomeGrTwo18csv.age30_49Total,
+	age30_49Female:demoIncomeGrTwo18csv.age30_49Female,
+	age30_49Male:demoIncomeGrTwo18csv.age30_49Male,
+	age50plusTotal:demoIncomeGrTwo18csv.age50plusTotal,
+	age50plusFemale:demoIncomeGrTwo18csv.age50plusFemale,
+	age50plusMale:demoIncomeGrTwo18csv.age50plusMale
+});
+
+// Import 'Income_Group3_AG_BL_BS.csv'
+LOAD CSV WITH HEADERS FROM 'https://raw.githubusercontent.com/epicalekspwner/OpenDataCustomerAnalytics/main/demographicsIncome/2018_demographicsIncome_Group3_AG_BL_BS.csv' AS demoIncomeGrThree18csv
+CREATE (:demoIncome18{
+	typeStat:'demoIncomeGrThree18',
+	group:'3',
+	category:demoIncomeGrThree18csv.category,
+	ageAllTotal:demoIncomeGrThree18csv.ageAllTotal,
+	ageAllFemale:demoIncomeGrThree18csv.ageAllFemale,
+	ageAllMale:demoIncomeGrThree18csv.ageAllMale,
+	age29minusTotal:demoIncomeGrThree18csv.age29minusTotal,
+	age29minusFemale:demoIncomeGrThree18csv.age29minusFemale,
+	age29minusMale:demoIncomeGrThree18csv.age29minusMale,
+	age30_49Total:demoIncomeGrThree18csv.age30_49Total,
+	age30_49Female:demoIncomeGrThree18csv.age30_49Female,
+	age30_49Male:demoIncomeGrThree18csv.age30_49Male,
+	age50plusTotal:demoIncomeGrThree18csv.age50plusTotal,
+	age50plusFemale:demoIncomeGrThree18csv.age50plusFemale,
+	age50plusMale:demoIncomeGrThree18csv.age50plusMale
+});
+
+// Import 'Income_Group4_ZH.csv'
+LOAD CSV WITH HEADERS FROM 'https://raw.githubusercontent.com/epicalekspwner/OpenDataCustomerAnalytics/main/demographicsIncome/2018_demographicsIncome_Group4_ZH.csv' AS demoIncomeGrFour18csv
+CREATE (:demoIncome18{
+	typeStat:'demoIncomeGrFour18',
+	group:'4',
+	category:demoIncomeGrFour18csv.category,
+	ageAllTotal:demoIncomeGrFour18csv.ageAllTotal,
+	ageAllFemale:demoIncomeGrFour18csv.ageAllFemale,
+	ageAllMale:demoIncomeGrFour18csv.ageAllMale,
+	age29minusTotal:demoIncomeGrFour18csv.age29minusTotal,
+	age29minusFemale:demoIncomeGrFour18csv.age29minusFemale,
+	age29minusMale:demoIncomeGrFour18csv.age29minusMale,
+	age30_49Total:demoIncomeGrFour18csv.age30_49Total,
+	age30_49Female:demoIncomeGrFour18csv.age30_49Female,
+	age30_49Male:demoIncomeGrFour18csv.age30_49Male,
+	age50plusTotal:demoIncomeGrFour18csv.age50plusTotal,
+	age50plusFemale:demoIncomeGrFour18csv.age50plusFemale,
+	age50plusMale:demoIncomeGrFour18csv.age50plusMale
+});
+
+// Import 'Income_Group5_AI_AR_GL_GR_SG_SH_TG.csv'
+LOAD CSV WITH HEADERS FROM 'https://raw.githubusercontent.com/epicalekspwner/OpenDataCustomerAnalytics/main/demographicsIncome/2018_demographicsIncome_Group5_AI_AR_GL_GR_SG_SH_TG.csv' AS demoIncomeGrFive18csv
+CREATE (:demoIncome18{
+	typeStat:'demoIncomeGrFive18',
+	group:'5',
+	category:demoIncomeGrFive18csv.category,
+	ageAllTotal:demoIncomeGrFive18csv.ageAllTotal,
+	ageAllFemale:demoIncomeGrFive18csv.ageAllFemale,
+	ageAllMale:demoIncomeGrFive18csv.ageAllMale,
+	age29minusTotal:demoIncomeGrFive18csv.age29minusTotal,
+	age29minusFemale:demoIncomeGrFive18csv.age29minusFemale,
+	age29minusMale:demoIncomeGrFive18csv.age29minusMale,
+	age30_49Total:demoIncomeGrFive18csv.age30_49Total,
+	age30_49Female:demoIncomeGrFive18csv.age30_49Female,
+	age30_49Male:demoIncomeGrFive18csv.age30_49Male,
+	age50plusTotal:demoIncomeGrFive18csv.age50plusTotal,
+	age50plusFemale:demoIncomeGrFive18csv.age50plusFemale,
+	age50plusMale:demoIncomeGrFive18csv.age50plusMale
+});
+
+// Import 'Income_Group6_LU_NW_OW_SZ_UR_ZG.csv'
+LOAD CSV WITH HEADERS FROM 'https://raw.githubusercontent.com/epicalekspwner/OpenDataCustomerAnalytics/main/demographicsIncome/2018_demographicsIncome_Group6_LU_NW_OW_SZ_UR_ZG.csv' AS demoIncomeGrSix18csv
+CREATE (:demoIncome18{
+	typeStat:'demoIncomeGrSix18',
+	group:'6',
+	category:demoIncomeGrSix18csv.category,
+	ageAllTotal:demoIncomeGrSix18csv.ageAllTotal,
+	ageAllFemale:demoIncomeGrSix18csv.ageAllFemale,
+	ageAllMale:demoIncomeGrSix18csv.ageAllMale,
+	age29minusTotal:demoIncomeGrSix18csv.age29minusTotal,
+	age29minusFemale:demoIncomeGrSix18csv.age29minusFemale,
+	age29minusMale:demoIncomeGrSix18csv.age29minusMale,
+	age30_49Total:demoIncomeGrSix18csv.age30_49Total,
+	age30_49Female:demoIncomeGrSix18csv.age30_49Female,
+	age30_49Male:demoIncomeGrSix18csv.age30_49Male,
+	age50plusTotal:demoIncomeGrSix18csv.age50plusTotal,
+	age50plusFemale:demoIncomeGrSix18csv.age50plusFemale,
+	age50plusMale:demoIncomeGrSix18csv.age50plusMale
+});
+
+// Import 'Income_Group7_TI.csv'
+LOAD CSV WITH HEADERS FROM 'https://raw.githubusercontent.com/epicalekspwner/OpenDataCustomerAnalytics/main/demographicsIncome/2018_demographicsIncome_Group7_TI.csv' AS demoIncomeGrSeven18csv
+CREATE (:demoIncome18{
+	typeStat:'demoIncomeGrSeven18',
+	group:'7',
+	category:demoIncomeGrSeven18csv.category,
+	ageAllTotal:demoIncomeGrSeven18csv.ageAllTotal,
+	ageAllFemale:demoIncomeGrSeven18csv.ageAllFemale,
+	ageAllMale:demoIncomeGrSeven18csv.ageAllMale,
+	age29minusTotal:demoIncomeGrSeven18csv.age29minusTotal,
+	age29minusFemale:demoIncomeGrSeven18csv.age29minusFemale,
+	age29minusMale:demoIncomeGrSeven18csv.age29minusMale,
+	age30_49Total:demoIncomeGrSeven18csv.age30_49Total,
+	age30_49Female:demoIncomeGrSeven18csv.age30_49Female,
+	age30_49Male:demoIncomeGrSeven18csv.age30_49Male,
+	age50plusTotal:demoIncomeGrSeven18csv.age50plusTotal,
+	age50plusFemale:demoIncomeGrSeven18csv.age50plusFemale,
+	age50plusMale:demoIncomeGrSeven18csv.age50plusMale
+});
+
+// ------------------------------------
+// ------- Create Relationships -------
+// ------------------------------------
+
+// Create relationships between demoStrAbs20 & cantons
+MATCH (d:demoStrAbs20), (c:canton)
+WHERE EXISTS (d.region) AND EXISTS (c.canton) AND d.region=c.canton
+CREATE (c)-[:CHARACTERIZED_BY]->(d)
+
+// Create relationships between demoLangAbs20 & cantons
+MATCH (d:demoLangAbs20), (c:canton)
+WHERE EXISTS (d.region) AND EXISTS (c.canton) AND d.region=c.canton
+CREATE (c)-[:CHARACTERIZED_BY]->(d)
+
+// Create relationships between demoHouseAbs20 & cantons
+MATCH (d:demoHouseAbs20), (c:canton)
+WHERE EXISTS (d.region) AND EXISTS (c.canton) AND d.region=c.canton
+CREATE (c)-[:CHARACTERIZED_BY]->(d)
+
+// Create relationships between demoEduAbs20 & cantons
+MATCH (d:demoEduAbs20), (c:canton)
+WHERE EXISTS (d.region) AND EXISTS (c.canton) AND d.region=c.canton
+CREATE (c)-[:CHARACTERIZED_BY]->(d)
+
+// Create relationships between groups & demoIncome18
+MATCH (g:demoIncomeGroup), (d:demoIncome18)
+WHERE EXISTS (g.group_id) AND EXISTS (d.group) AND g.group_id=d.group
+CREATE (d)-[:PART_OF]->(g)
+
+// Create relationships between groups & cantons
+MATCH (g:demoIncomeGroup), (c:canton)
+WHERE EXISTS (g.canton) AND EXISTS (c.canton) AND g.canton=c.canton
+CREATE (c)-[:CHARACTERIZED_BY]->(g)
+
+// -----------------------------
+// ------- Display Graph -------
+// -----------------------------
+
+// Display graph
+MATCH (n) RETURN n
