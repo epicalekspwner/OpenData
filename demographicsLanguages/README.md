@@ -1,7 +1,7 @@
 ## demographicsLanguages: Files, Metadata & Attributes
 
 ### **Files**
-- *Note: only the last 5 years are being considerated for simplification and data relevance purposes!*
+*Note: only the last 5 years are being considerated for data coherence and relevance purposes!*
 - ```20XX_demographicsLanguagesAbsolute.csv```: Absolute numbers per canton of permanent citizens above 15 years speaking a given language
 - ```20XX_demographicsLanguagesCantonRelative.csv```: Relative numbers per canton of permanent citizens above 15 years (percentages) speaking a given language
 - ```20XX_demographicsLanguages_CountryRelative.csv```: Relative numbers per canton of permanent citizens above 15 years (percentages) speaking a given language within the country 
